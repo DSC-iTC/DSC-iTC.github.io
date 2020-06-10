@@ -1,18 +1,18 @@
-= Public Review Status for Coffee Maker iTC
+= Public Review Status for Dedicated Security Components iTC
 :showtitle:
 :toc:
 :toclevels: 3
 :imagesdir: images
 :table-caption: Table
 :revnumber: 0.2
-:revdate: 2020-06-03
+:revdate: 2020-06-10
 :xrefstyle: full
 
-:iTC-longname: Coffee Maker
-:iTC-shortname: CM-iTC
-:iTC-email: cm.itc@gmail.com
-:iTC-website: https://coffeemaker.github.io/
-:iTC-GitHub: https://github.com/coffeemaker/repository/
+:iTC-longname: Dedicated Security Components
+:iTC-shortname: DSC-iTC
+:iTC-email: iTC-DSC@niap-ccevs.org
+:iTC-website: https://DSC-iTC.github.io/
+:iTC-GitHub: https://github.com/DSC-iTC/cPP/
 
 == Introduction
 

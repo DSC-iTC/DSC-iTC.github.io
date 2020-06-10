@@ -3,19 +3,19 @@
 :toc:
 :imagesdir: images
 :icons: font
-:revnumber: 0.3
-:revdate: 2020-04-24
+:revnumber: 0.1
+:revdate: 2020-06-10
 
-:iTC-longname: Coffee Maker
-:iTC-shortname: CM-iTC
-:iTC-email: cm.itc@gmail.com
-:iTC-website: https://coffeemaker.github.io/
-:iTC-GitHub: https://github.com/coffeemaker/repository/
+:iTC-longname: Dedicated Security Components
+:iTC-shortname: DSC-iTC
+:iTC-email: iTC-DSC@niap-ccevs.org
+:iTC-website: https://DSC-iTC.github.io/
+:iTC-GitHub: https://github.com/DSC-iTC/cPP
 
 == Introduction
 From the CCDB-established Working Group, the {iTC-longname} ({iTC-shortname} for short) was formed. The {iTC-shortname} consists of members of Certification Bodies, labs, vendors and academia working together to create requirements for biometric security testing.
 
-https://www.commoncriteriaportal.org/communities/<page>[Common Criteria Portal {iTC-shortname} Page]
+https://www.commoncriteriaportal.org/communities/dedicated_security_components.cfm[Common Criteria Portal {iTC-shortname} Page]
 
 To join the {iTC-shortname}, please send a message to: {iTC-email}
 
