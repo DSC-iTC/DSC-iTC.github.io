@@ -1,4 +1,4 @@
-= Coffee Maker iTC
+= Dedicated Security Components iTC
 :showtitle:
 :toc:
 :imagesdir: images
