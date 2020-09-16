@@ -3,8 +3,8 @@
 :toc:
 :imagesdir: images
 :icons: font
-:revnumber: 0.1
-:revdate: 2020-06-10
+:revnumber: 0.2
+:revdate: 2020-09-15
 
 :iTC-longname: Dedicated Security Components
 :iTC-shortname: DSC-iTC
@@ -17,25 +17,23 @@ From the CCDB-established Working Group, the {iTC-longname} ({iTC-shortname} for
 
 https://www.commoncriteriaportal.org/communities/dedicated_security_components.cfm[Common Criteria Portal {iTC-shortname} Page]
 
-To join the {iTC-shortname}, please send a message to: {iTC-email}
+To join the {iTC-shortname}, please send an email to {iTC-email} and include the following in your message: Github handle, Name, Affiliation, Contact Info, Experience, etc.
 
-== Resources related to the {iTC-longname} iTC
+== Resources related to {iTC-shortname}
 
 [GUIDANCE]
 ====
-These are example links for resources. Probably important to have a library page that links to all iTC governing docs. For example, Public Review process, IT process, ToR, ESR, could all go on a library page, but things that are likely to be hit up often, maybe should be listed directly. 
+{iTC-shortname} Project related resources such as 
 ====
 
-* link:/cPP/cPPv01.html[cPP v0.1]
-* link:/SD/SDv01.html[SD v0.1]
+* link:/cPP/cPPv01.html[cPP] and link:/SD/SDv01.html[SD]
 * link:/TD/tech-dec.html[Technical Decisions]
 * link:/lifecycle.html[Document Lifecycle & cPP Archives]
-* link:/docs/PP-config.html[Allowed Components]
+* link:/docs/PP-config.html[Allowed-With Configurations]
 * link:/library.html[Documentation Library]
 * link:/docs/public-review-process.html[Public Review Process for {iTC-shortname}]
 * link:/public-review/status.html[Public Review Status]
 * {iTC-GitHub}[{iTC-shortname} GitHub repository]
 
 == Current Status
-Put something here that talks about what is going on right now. This isn't as formal as say the draft status, but something that may say something like "working on the initial draft release of the cPP". The idea would just be to say something about what is going on within the iTC.
-
+The DSC cPP and SD v1.0 documents have been published and submitted for review by the CCDB for compliance with the CC and CEM.  It can be found on the https://commoncriteriaportal.org/pps/collaborativePP.cfm[Collaborative Protection Profiles (cPP) and Supporting Documents (SD)] page under section "cPPs with SDs that are currently being reviewed by the CCDB for compliance with the CC and CEM" and category of "ICs, Smart Cards and Smart Card-Related Devices and Systems".
