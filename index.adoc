@@ -3,8 +3,8 @@
 :toc:
 :imagesdir: images
 :icons: font
-:revnumber: 0.2
-:revdate: 2020-09-15
+:revnumber: 2
+:revdate: 2022-12-13
 
 :iTC-longname: Dedicated Security Components
 :iTC-shortname: DSC-iTC
@@ -19,21 +19,73 @@ https://www.commoncriteriaportal.org/communities/dedicated_security_components.c
 
 To join the {iTC-shortname}, please send an email to {iTC-email} and include the following in your message: Github handle, Name, Affiliation, Contact Info, Experience, etc.
 
-== Resources related to {iTC-shortname}
-
-[GUIDANCE]
-====
-{iTC-shortname} Project related resources such as 
-====
-
-* link:/cPP/cPPv01.html[cPP] and link:/SD/SDv01.html[SD]
-* link:/TD/tech-dec.html[Technical Decisions]
-* link:/lifecycle.html[Document Lifecycle & cPP Archives]
-* link:/docs/PP-config.html[Allowed-With Configurations]
-* link:/library.html[Documentation Library]
-* link:/docs/public-review-process.html[Public Review Process for {iTC-shortname}]
-* link:/public-review/status.html[Public Review Status]
-* {iTC-GitHub}[{iTC-shortname} GitHub repository]
-
 == Current Status
 The DSC cPP and SD v1.0 documents have been published and submitted for review by the CCDB for compliance with the CC and CEM.  It can be found on the https://commoncriteriaportal.org/pps/collaborativePP.cfm[Collaborative Protection Profiles (cPP) and Supporting Documents (SD)] page under section "cPPs with SDs that are currently being reviewed by the CCDB for compliance with the CC and CEM" and category of "ICs, Smart Cards and Smart Card-Related Devices and Systems".
+
+The iTC is in the process of transitioning the documents from Word to asciidoc to use GitHub for future revisions. The current versions of these documents have been posted in GitHub and can be seen in the <<v1.0.1DraftDocTable>> table. These versions have minor changes from the original to utilize some capabilities of asciidoc (some internal crosslinking) and a few minor editorial changes that were found during the conversion. These documents are available for preview while the iTC checks the documents for fidelity to the original publication. Once approved these will be published as a 1.0.1 edition.
+
+== Current Documents
+
+*_Version 1.0_*
+
+Publication Date:: September 10, 2020
+
+The following are the documents are included in Version 1.0:
+
+.Public Release v1.0 Documents
+[[v1.0DocTable]]
+[cols="5,1,1,1,1",options="header"]
+|===
+|Title 
+^.^|Version 
+^.^|Links
+^.^|Latest TD Version
+^.^|Links
+
+.^|collaborative Protection Profile for Dedicated Security Component
+^.^|1.0
+^.^|image:Crystal_Clear_mimetype_pdf.png[link=./v1/1.0/cpp_dsc_v1.pdf,40,]
+^.^|
+^.^|
+
+.^|Supporting Document: Mandatory Technical Document: Evaluation Activities for collaborative Protection Profile for Dedicated Security Component
+^.^|1.0
+^.^|image:Crystal_Clear_mimetype_pdf.png[link=./v1/1.0/cpp_dsc_sd_v1.pdf,40,]
+^.^|
+^.^|
+
+|===
+
+*_Version 1.0.1 Draft_*
+
+Publication Date:: December 13, 2022
+
+The following are the documents are included in Version 1.0.1:
+
+.v1.0.1 Draft Documents
+[[v1.0.1DraftDocTable]]
+[cols="5,1,1",options="header"]
+|===
+|Title 
+^.^|Version 
+^.^|Links
+
+.^|collaborative Protection Profile for Dedicated Security Component
+^.^|1.0.1
+^.^|image:Crystal_Clear_mimetype_pdf.png[link=./v1/1.0.1/cPP_DSC_V1.0.1.pdf,40,] image:iconfinder_HTML_Logo_65687.png[link=./v1/1.0.1/cPP_DSC_V1.0.1.html,40,] image:GitHub-Mark-64px.png[link={iTC-GitHub}/releases/tag/v1.0.1-draft,40,]
+
+.^|Supporting Document: Mandatory Technical Document: Evaluation Activities for collaborative Protection Profile for Dedicated Security Component
+^.^|1.0.1
+^.^|image:Crystal_Clear_mimetype_pdf.png[link=./v1/1.0.1/SD_DSC_V1.0.1.pdf,40,] image:iconfinder_HTML_Logo_65687.png[link=./v1/1.0.1/SD_DSC_V1.0.1.html,40,] image:GitHub-Mark-64px.png[link={iTC-GitHub}/releases/tag/v1.0.1-draft,40,]
+
+|===
+
+== Resources related to {iTC-shortname}
+
+* link:/TD/tech-dec.html[Technical Decisions]
+* link:/lifecycle.html[Document Lifecycle & cPP Archives]
+* link:/library.html[Documentation Library]
+* https://github.com/DSC-iTC/Governance[{iTC-shortname} Governing Documents]
+* {iTC-GitHub}[{iTC-shortname} GitHub repository]
+
+

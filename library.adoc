@@ -3,8 +3,8 @@
 :toc:
 :imagesdir: images
 :icons: font
-:revnumber: 0.1
-:revdate: 2020-06-10
+:revnumber: 2
+:revdate: 2022-12-13
 
 :iTC-longname: Dedicated Security Components
 :iTC-shortname: DSC-iTC
@@ -17,10 +17,10 @@ These are links to the documents governing the {iTC-longname} iTC.
 
 * https://www.commoncriteriaportal.org/communities/CCDB_DSC_ESR_v1.2.pdf[Essential Security Requirements]
 * https://ccusersforum.onlyoffice.com/Products/Files/doceditor.aspx?fileid=4838302[Terms of Reference]
-* [{iTC-longname} iTC Status Table]
-* [{iTC-longname} iTC Work Plan]
-* [Maintenance Process Workflow]
-* [Interpretation Team Process]
+* https://github.com/DSC-iTC/Governance[{iTC-longname} iTC Status Table]
+* https://github.com/DSC-iTC/Governance[{iTC-longname} iTC Work Plan]
+* https://github.com/DSC-iTC/Governance[Maintenance Process Workflow]
+* https://github.com/DSC-iTC/Governance[Interpretation Team Process]
 * https://github.com/DSC-iTC/cPP/issues/new/choose[Interpretation Team Submission Form]
 * link:/docs/PP-config.html[{iTC-longname} iTC list of allowed PP-Configuration components]
 * link:/docs/public-review-process.html[Public Review Process]

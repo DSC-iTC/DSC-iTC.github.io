@@ -3,8 +3,8 @@
 :toc: macro
 :imagesdir: images
 :icons: font
-:revnumber: 0.1
-:revdate: 2020-06-10
+:revnumber: 2
+:revdate: 2022-12-13
 
 :iTC-longname: Dedicated Security Components
 :iTC-shortname: DSC-iTC
@@ -15,11 +15,6 @@
 
 == Introduction
 This page lists the various cPPs and PP-Modules that are approved by the {iTC-shortname} to be used in conjunction with the {pp-name} in PP-Configurations.
-
-[GUIDANCE]
-====
-It may be necessary over time to explicitly reject cPPs (or specific versions) from inclusion with the cPP. There may also be cases where specific versions of the cPP are compatible with specific versions of other components. These should be noted (probably by adding columns to the table).
-====
 
 == Approved Components
 .Allowed Components
@@ -42,19 +37,9 @@ It may be necessary over time to explicitly reject cPPs (or specific versions) f
 |===
 
 === Justification for Allowed Components
-[GUIDANCE]
-====
-Here you would provide the reasons for the allowed inclusion. This can be as short or as long as the iTC determines is necessary.
-====
 
-==== EXAMPLE
-Everyone needs the ability to froth their milk before putting it in their coffee, and doing so does not impact the ability to make coffee as defined in the {pp-name}.
 
 == Archive List of Previously Approved Components
-[GUIDANCE]
-====
-As cPPs and components evolve versions may no longer be considered compatible. As versions of components are removed from the approved list their history should be captured in tables here along with a justification for the removal. 
-====
 
 .Archived Components
 [%header,cols=".^1,.^1,.^1,.^1,.^1"]
@@ -74,10 +59,4 @@ As cPPs and components evolve versions may no longer be considered compatible. A
 |===
 
 === Justification for Archived Components
-[GUIDANCE]
-====
-Here you would provide the reasons for components no longer being listed as approved. This can be as short or as long as the iTC determines is necessary.
-====
 
-==== EXAMPLE
-With the release of {pp-name} v2.0, the requirements on milk frothing have been integrated into the cPP and so the PP-Module is no longer necessary.
