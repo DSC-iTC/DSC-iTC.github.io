@@ -31,7 +31,7 @@ The FCS_COP.1/PBKDF requirement mandates a specific implementation to thwart bru
 === CPP_DSC_v1.0
 FCS_COP.1/PBKDF is modified as follows (yellow highlights for additions, strikethrough for deletions):
 
-FCS_COP.1.1/PBKDF The TSF shall perform [_password-based key derivation functions_] in accordance with a specified cryptographic algorithm [_HMAC-[selection: SHA-256, SHA-384, SHA-512]_ ], *with #[selection:# _[assignment: integer number greater than or equal to 1000 #iterations], at least 1 iteration followed by a function equivalent to the workload of at least 1000# [.line-through]#]# iterations_#]#, and output* cryptographic key sizes [selection: 128, 192, 256] bits that meet the following standard: [_NIST SP 800-132_].
+FCS_COP.1.1/PBKDF:: The TSF shall perform [_password-based key derivation functions_] in accordance with a specified cryptographic algorithm [_HMAC-[selection: SHA-256, SHA-384, SHA-512]_ ], *with #[selection:# _[assignment: integer number greater than or equal to 1000 #iterations], at least 1 iteration followed by a function equivalent to the workload of at least 1000# [.line-through]#]# iterations_#]#, and output* cryptographic key sizes [selection: 128, 192, 256] bits that meet the following standard: [_NIST SP 800-132_].
 
 _Application Note 50_:: _The [.line-through]#ST# #TSF# must condition a password into a string of bits prior to using it as input to algorithms that form SKs and KEKs. The [.line-through]#ST# #TSF# can perform conditioning using one of the identified hash functions or the process described in NIST SP 800-132; the ST author selects the method used. NIST SP 800-132 requires the use of a pseudo-random function (PRF) consisting of HMAC with an approved hash function._
 +
