@@ -1,0 +1,48 @@
+= DSC0002 - Clarification on FPT_STM.1 clock location
+:showtitle:
+:imagesdir: images
+:icons: font
+:revnumber: 1
+:revdate: 2023-02-21
+:linkattrs:
+
+:iTC-longname: Dedicated Security Components
+:iTC-shortname: DSC-iTC
+:iTC-email: iTC-DSC@niap-ccevs.org
+:iTC-website: https://DSC-iTC.github.io/
+:iTC-GitHub: https://github.com/DSC-iTC/cPP/
+
+Published: {revdate}
+
+== Impacted Documents
+link:/v1/1.0/cpp_dsc_v1.pdf[CPP_DSC_v1.0]
+
+link:/v1/1.0/cpp_dsc_sd_v1.pdf[SD_DSC_v1.0]
+
+== References
+FPT_STM.1
+
+== Issue Description
+FPT_STM.1 does not, on its own, provide any details on the source for reliable time stamps, only that the TSF shall provide them. The application note provides some additional inforamtion that the clock can be within the same physical enclosure as the TOE, but since the DSC can be used by a wide variety of devices, it is not clear what a physical enclosure should be.
+
+== Resolution
+To clarify the expectations of a physical enclosure, an example is added to the application note and the Supporting Document is updated to ensure that the location of the reliable time stamp is clearly explained.
+
+=== CPP_DSC_v1.0
+Application Note 41 is modified as follows (yellow highlights for additions, strikethrough for deletions):
+
+_41._:: It is acceptable for the TSF to provide timestamp data either through an internal clock or a counter. It is also permissible for the TSF to obtain time data from a clock contained within the same physical enclosure #in which the TOE is embedded (e.g. a mobile device)#.
+
+=== SD_DSC_v1.0
+Section 2.5.7.1.1 is updated as follows (yellow highlights for additions, strikethrough for deletions):
+
+*2.5.7.1.1 TSS*
+
+The evaluator shall examine the TSS to ensure that it lists each security function that makes use of time. The TSS provides a description of how the time is maintained and considered reliable in the context of each of the time related functions.
+
+#The evaluator shall examine the TSS and other vendor documentation and ensure they describe the location of the time source for the TSF.#
+
+#[conditional] For a time source that is outside the TOE but contained inside the same physical enclosure, the evaluator shall ensure there is a description of how the time is obtained from the source outside the TOE.#
+
+== Tracking
+https://github.com/DSC-iTC/cPP/issues/2[Issue #2]
