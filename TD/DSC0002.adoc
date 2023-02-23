@@ -23,7 +23,7 @@ link:/v1/1.0/cpp_dsc_sd_v1.pdf[SD_DSC_v1.0]
 FPT_STM.1
 
 == Issue Description
-FPT_STM.1 does not, on its own, provide any details on the source for reliable time stamps, only that the TSF shall provide them. The application note provides some additional inforamtion that the clock can be within the same physical enclosure as the TOE, but since the DSC can be used by a wide variety of devices, it is not clear what a physical enclosure should be.
+FPT_STM.1 does not, on its own, provide any details on the source for reliable time stamps, only that the TSF shall provide them. The application note provides some additional information that the clock can be within the same physical enclosure as the TOE, but since the DSC can be used by a wide variety of devices, it is not clear what a physical enclosure should be.
 
 == Resolution
 To clarify the expectations of a physical enclosure, an example is added to the application note and the Supporting Document is updated to ensure that the location of the reliable time stamp is clearly explained.
