@@ -41,7 +41,7 @@ There is a typo referencing FMT_SMF_EXT.1 (which does not exist) in 2.4.1.1.3.
 There is a typo referencing FPT_PHP.1 (which does not exist) in 2.5.4.1.3.
 
 === FCS_CKM.1/SK Description
-There is a type referencing FCS_COP.1/KDF (which does not exist) in 4.1.1.2.1 and 4.1.1.2.3.
+There is a typo referencing FCS_COP.1/KDF (which does not exist) in 4.1.1.2.1 and 4.1.1.2.3.
 
 == Resolution
 
@@ -63,6 +63,7 @@ The reference will be corrected to FCS_CKM_EXT.5.
 == SD_DSC_v1.0
 The SD is updated as follows (yellow highlights for additions, strikethrough for deletions) per section that is being updated:
 
+=== FCS_STG_EXT.1 Change
 *2.1.6.1.3 Test*
 
 The evaluator shall test the functionality of each security function as described below. If the TOE supports both import and generation of keys, the evaluator shall repeat the testing as needed to demonstrate that the keys resulting from both operations are treated in the same manner. The devices used with the tooling may need to be non-production devices in order to enable the execution and gathering of evidence. 
@@ -88,7 +89,7 @@ The evaluator shall repeat this test with the application-imported or applicatio
 
 [.line-through]#If the ST author has selected common application developer, this test is performed by either using applications from different developers or appropriately (according to API documentation) not authorizing sharing.#
 
-
+=== FDP_SDC_EXT.1 Change
 *2.2.8.1.3 Test*
 
 If the TOE stores SDEs and authorization data inside the TSF, the evaluator shall ensure that external interfaces cannot extract this data in plaintext. 
@@ -97,10 +98,12 @@ In this case, use the evaluation activities of the FPT_PHP.3 if [.underline]#pro
 
 If the TOE stores authentication data inside the operational environment, the evaluator shall ensure that plaintext data is not visible on the interface between the TOE and the operational environment.
 
+=== FMT_MOF_EXT.1 Change
 *2.4.1.1.3 Test*
 
 For each management function described in FMT_SMF[.line-through]##_EXT##.1.1, the evaluator shall perform the function with administrator authorization data and confirm it succeeds, and again with client application authorization data and confirm that it fails.
 
+=== FPT_PRO_EXT.1 Change
 *2.5.4.1.3 Test*
 
 *_Immutability_*
@@ -115,6 +118,7 @@ For a mutable Root of Trust identity, the evaluator shall perform the following 
 
 . Create or use an unauthenticated Root of Trust identity, confirm the target fails to modify the Root of Trust identity.
 
+=== FCS_CKM.1/SK Change
 *4.1.1.2.1 TSS*
 
 The evaluator shall examine the TSS to verify that it describes how the TOE obtains an SK through direct generation as specified in FCS_RBG_EXT.1, [.line-through]#FCS_COP.1/KDF# #FCS_CKM_EXT.5#, or FCS_COP.1/PBKDF. The evaluator shall review the TSS to verify that it describes how the ST invokes the functionality described by FCS_RBG_EXT.1 and FCS_COP.1/PBKDF where applicable.
