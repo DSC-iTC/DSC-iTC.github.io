@@ -5,7 +5,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <meta name="generator" content="Asciidoctor 2.0.18">
-<title>Dedicated Security Components iTC Technical Decisions</title>
+<title>DSC0004 - FCS_CKM.1/SK References Unclear</title>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:300,300italic,400,400italic,600,600italic%7CNoto+Serif:400,400italic,700,700italic%7CDroid+Sans+Mono:400,700">
 <style>
 /*! Asciidoctor default stylesheet | MIT License | https://asciidoctor.org */
@@ -457,111 +457,154 @@ body.book #toc,body.book #preamble,body.book h1.sect0,body.book .sect1>h2{page-b
 </head>
 <body class="article toc2 toc-left">
 <div id="header">
-<h1>Dedicated Security Components iTC Technical Decisions</h1>
+<h1>DSC0004 - FCS_CKM.1/SK References Unclear</h1>
 <div class="details">
-<span id="revnumber">version 2,</span>
+<span id="revnumber">version 1,</span>
 <span id="revdate">2023-03-10</span>
 </div>
 <div id="toc" class="toc2">
 <div id="toctitle">Table of Contents</div>
 <ul class="sectlevel1">
-<li><a href="#_dedicated_security_components_technical_decisions">Dedicated Security Components Technical Decisions</a>
-<ul class="sectlevel2">
-<li><a href="#_technical_decision_links">Technical Decision Links</a></li>
-</ul>
-</li>
-<li><a href="#_active_technical_decisions">Active Technical Decisions</a></li>
+<li><a href="#_impacted_documents">Impacted Documents</a></li>
+<li><a href="#_references">References</a></li>
+<li><a href="#_issue_description">Issue Description</a></li>
+<li><a href="#_resolution">Resolution</a></li>
+<li><a href="#_cpp_dsc_v1_0">CPP_DSC_v1.0</a></li>
+<li><a href="#_tracking">Tracking</a></li>
 </ul>
 </div>
 </div>
 <div id="content">
-<div class="sect1">
-<h2 id="_dedicated_security_components_technical_decisions">Dedicated Security Components Technical Decisions</h2>
+<div id="preamble">
 <div class="sectionbody">
 <div class="paragraph">
-<p>The iTC issues Technical Decisions based on requests for interpretation to clarify and update the cPP and related documents between release cycles. This is the main page for Technical Decisions that have been issued by the iTC.</p>
-</div>
-<div class="sect2">
-<h3 id="_technical_decision_links">Technical Decision Links</h3>
-<div class="ulist">
-<ul>
-<li>
-<p><a href="https://github.com/DSC-iTC/cPP/issues/new/choose">New Request for Interpretation</a></p>
-</li>
-<li>
-<p><a href="tech-dec-arch.html">Archived Technical Decisions</a></p>
-</li>
-</ul>
-</div>
+<p>Published: 2023-03-10</p>
 </div>
 </div>
 </div>
 <div class="sect1">
-<h2 id="_active_technical_decisions">Active Technical Decisions</h2>
+<h2 id="_impacted_documents">Impacted Documents</h2>
 <div class="sectionbody">
+<div class="paragraph">
+<p><a href="/v1/1.0/cpp_dsc_v1.pdf">CPP_DSC_v1.0</a></p>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_references">References</h2>
+<div class="sectionbody">
+<div class="paragraph">
+<p>FCS_CKM.1/SK</p>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_issue_description">Issue Description</h2>
+<div class="sectionbody">
+<div class="paragraph">
+<p>The references to NIST SP 800-133 are unclear. A new revision was release just before the publication of cPP (during the final editing process), and it is not clear what version should be used. Additionally the sections being referred to are incorrect.</p>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_resolution">Resolution</h2>
+<div class="sectionbody">
+<div class="paragraph">
+<p>As the original version of SP 800-133 has been withdrawn, the current version (SP 800-133r2) will be explicitly referenced within the SFR along with updating the section numbers correctly.</p>
+</div>
+<div class="paragraph">
+<p>The changes are included in Table 15 and Application Note 48.</p>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_cpp_dsc_v1_0">CPP_DSC_v1.0</h2>
+<div class="sectionbody">
+<div class="paragraph">
+<p>The cPP is updated as follows (yellow highlights for additions, strikethrough for deletions) per section that is being updated:</p>
+</div>
+<div class="paragraph">
+<p><em>Table 15. Supported Methods for Symmetric Encryption Key Generation</em></p>
+</div>
 <table class="tableblock frame-all grid-all stretch">
 <colgroup>
-<col style="width: 11.1111%;">
-<col style="width: 22.2222%;">
-<col style="width: 11.1111%;">
-<col style="width: 11.1111%;">
-<col style="width: 22.2222%;">
-<col style="width: 22.2223%;">
+<col style="width: 14.2857%;">
+<col style="width: 14.2857%;">
+<col style="width: 28.5714%;">
+<col style="width: 14.2857%;">
+<col style="width: 28.5715%;">
 </colgroup>
 <thead>
 <tr>
-<th class="tableblock halign-left valign-middle">ID</th>
-<th class="tableblock halign-left valign-middle">Title</th>
-<th class="tableblock halign-left valign-middle">Reference</th>
-<th class="tableblock halign-left valign-middle">Publication Date</th>
-<th class="tableblock halign-left valign-middle">Impact</th>
-<th class="tableblock halign-left valign-middle">Included From</th>
+<th class="tableblock halign-left valign-middle">Identifier</th>
+<th class="tableblock halign-left valign-middle">Key Type</th>
+<th class="tableblock halign-left valign-middle">Cryptographic Key Generation Algorithm</th>
+<th class="tableblock halign-left valign-middle">Key Sizes</th>
+<th class="tableblock halign-left valign-middle">List of Standards</th>
 </tr>
 </thead>
 <tbody>
 <tr>
-<td class="tableblock halign-left valign-middle"><p class="tableblock">DSC0001</p></td>
-<td class="tableblock halign-left valign-middle"><p class="tableblock"><a href="DSC0001.html">Additional Workload Options in FCS_COP.1/PBKDF</a></p></td>
-<td class="tableblock halign-left valign-middle"><p class="tableblock">FCS_COP.1/PBKDF</p></td>
-<td class="tableblock halign-left valign-middle"><p class="tableblock">2022-12-16</p></td>
-<td class="tableblock halign-left valign-middle"><p class="tableblock"><a href="/v1/1.0/cpp_dsc_v1.pdf">CPP_DSC_v1.0</a></p>
-<p class="tableblock"><a href="/v1/1.0/cpp_dsc_sd_v1.pdf">SD_DSC_v1.0</a></p></td>
-<td class="tableblock halign-left valign-middle"></td>
+<td class="tableblock halign-left valign-middle"><p class="tableblock">RSK</p></td>
+<td class="tableblock halign-left valign-middle"><p class="tableblock"><span class="underline">[selection: symmetric key, submask, authorization value]</span></p></td>
+<td class="tableblock halign-left valign-middle"><p class="tableblock">Direct Generation froma Random Bit Generator as specified in FCS_RBG_EXT.1</p></td>
+<td class="tableblock halign-left valign-middle"><p class="tableblock"><span class="underline">[selection: 128, 192, 256, 512]</span> bits</p></td>
+<td class="tableblock halign-left valign-middle"><p class="tableblock">NIST SP 800-133<mark>r2</mark> (Section <span class="line-through">7.1</span> <mark>6.1</mark>) with ISO 18031<mark>:2011</mark> as an approved RBG in addition to those in NIST SP 800-133<mark>r2</mark> (Section <span class="line-through">5</span> <mark>4</mark>).</p></td>
 </tr>
 <tr>
-<td class="tableblock halign-left valign-middle"><p class="tableblock">DSC0002</p></td>
-<td class="tableblock halign-left valign-middle"><p class="tableblock"><a href="DSC0002.html">Clarification on FPT_STM.1 clock location</a></p></td>
-<td class="tableblock halign-left valign-middle"><p class="tableblock">FPT_STM.1</p></td>
-<td class="tableblock halign-left valign-middle"><p class="tableblock">2023-03-10</p></td>
-<td class="tableblock halign-left valign-middle"><p class="tableblock"><a href="/v1/1.0/cpp_dsc_v1.pdf">CPP_DSC_v1.0</a></p>
-<p class="tableblock"><a href="/v1/1.0/cpp_dsc_sd_v1.pdf">SD_DSC_v1.0</a></p></td>
-<td class="tableblock halign-left valign-middle"></td>
+<td class="tableblock halign-left valign-middle"><p class="tableblock">DSK <span class="underline">[selection: identifier from <a href="#KeyDerivation">[KeyDerivation]</a>]</span></p></td>
+<td class="tableblock halign-left valign-middle"><p class="tableblock"><span class="underline">[selection: Key Type from <a href="#KeyDerivation">[KeyDerivation]</a>]</span></p></td>
+<td class="tableblock halign-left valign-middle"><p class="tableblock">Derived from a Key Derivation Function as specified in FCS_CKM_EXT.5 <span class="underline">[selection: Key Derivation Algorithm from <a href="#KeyDerivation">[KeyDerivation]</a>]</span></p></td>
+<td class="tableblock halign-left valign-middle"><p class="tableblock"><span class="underline">[selection: key sizes from <a href="#KeyDerivation">[KeyDerivation]</a>]</span></p></td>
+<td class="tableblock halign-left valign-middle"><p class="tableblock"><span class="underline">[selection: List of Standards from <a href="#KeyDerivation">[KeyDerivation]</a>]</span></p></td>
 </tr>
 <tr>
-<td class="tableblock halign-left valign-middle"><p class="tableblock">DSC0003</p></td>
-<td class="tableblock halign-left valign-middle"><p class="tableblock"><a href="DSC0003.html">Editorial Corrections in Supporting Document</a></p></td>
-<td class="tableblock halign-left valign-middle"><p class="tableblock">FCS_STG_EXT.1, FDP_SDC_EXT.1, FMT_MOF_EXT.1, FPT_PRO_EXT.1, FCS_CKM.1/SK</p></td>
-<td class="tableblock halign-left valign-middle"><p class="tableblock">2023-03-10</p></td>
-<td class="tableblock halign-left valign-middle"><p class="tableblock"><a href="/v1/1.0/cpp_dsc_sd_v1.pdf">SD_DSC_v1.0</a></p></td>
-<td class="tableblock halign-left valign-middle"></td>
-</tr>
-<tr>
-<td class="tableblock halign-left valign-middle"><p class="tableblock">DSC0004</p></td>
-<td class="tableblock halign-left valign-middle"><p class="tableblock"><a href="DSC0004.html">FCS_CKM.1/SK References Unclear</a></p></td>
-<td class="tableblock halign-left valign-middle"><p class="tableblock">FCS_CKM.1/SK</p></td>
-<td class="tableblock halign-left valign-middle"><p class="tableblock">2023-03-10</p></td>
-<td class="tableblock halign-left valign-middle"><p class="tableblock"><a href="/v1/1.0/cpp_dsc_v1.pdf">CPP_DSC_v1.0</a></p></td>
-<td class="tableblock halign-left valign-middle"></td>
+<td class="tableblock halign-left valign-middle"><p class="tableblock">PBK</p></td>
+<td class="tableblock halign-left valign-middle"><p class="tableblock"><span class="underline">[selection: submask, authentication token, authorization value]</span></p></td>
+<td class="tableblock halign-left valign-middle"><p class="tableblock">Derived from a Password Based Key Derivation Function as specified in FCS_COP.1/PBKDF</p></td>
+<td class="tableblock halign-left valign-middle"><p class="tableblock"><span class="underline">[selection: key sizes as specified in FCS_COP.1/PBKDF]</span></p></td>
+<td class="tableblock halign-left valign-middle"><p class="tableblock"><span class="underline">[selection: standards as specified in FCS_COP.1/PBKDF]</span></p></td>
 </tr>
 </tbody>
 </table>
+<div class="dlist">
+<dl>
+<dt class="hdlist1"><em>Application Note 48</em></dt>
+<dd>
+<p><em>The intent of this requirement is to ensure that attackers cannot recover SKs with less than a full exhaust of the key space. This requirement explains SK generation regardless of how the DSC uses it or when it generates it. The encryption of user data that is not keying material, authentication tokens, or authorization values is outside the scope of this cPP. This cPP assumes that the DSC lacks the required resources to perform bulk encryption/decryption services at a suitable rate for users. The host may use the SK for encrypting user data outside the boundaries of the DSC. On the other hand, the DSC may use the SK on behalf of the user to perform keyed hashes. In this case, all the requirements for generating, controlling access and use, and destroying the key while under the protection of the DSC apply.</em></p>
+<div class="paragraph">
+<p><em>The selection of key size 512 bits is for the case of XTS-AES using AES-256. In the case of XTS-AES for both AES-128 and AES-256, the developer is expected to ensure that the full key is generated using direct generation from the RBG as <mark>specified</mark> in NIST SP 800-133<mark>r2</mark> <span class="line-through">section</span> <mark>(Section 6.1)</mark>.</em></p>
+</div>
+<div class="paragraph">
+<p><em>The ST author selects at least one algorithm from the RSK row if the ST supports creating keys directly from the output of the RBG without further conditioning, at least one algorithm from the DSK row should be selected if the ST supports key derivation functions which are usually seeded from RBG and then further conditioned to the appropriate key size, and at least one algorithm from the PBK row should be selected if the ST supports keys derived from passwords.</em></p>
+</div>
+<div class="paragraph">
+<p><em>If <span class="underline">DSK</span> is selected, the selection-based SFR FCS_CKM_EXT.5 must be claimed by the TOE.</em></p>
+</div>
+<div class="paragraph">
+<p><em>If <span class="underline">PBK</span> is selected, the selection-based SFR FCS_COP.1/PBKDF must be claimed by the TOE.</em></p>
+</div>
+<div class="paragraph">
+<p><em>This requirement must be claimed by the TOE if at least one of FCS_CKM.1 or FCS_CKM.1/KEK chooses a selection related to generation of symmetric keys.</em></p>
+</div>
+</dd>
+</dl>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_tracking">Tracking</h2>
+<div class="sectionbody">
+<div class="paragraph">
+<p><a href="https://github.com/DSC-iTC/cPP/issues/42">Issue #42</a></p>
+</div>
 </div>
 </div>
 </div>
 <div id="footer">
 <div id="footer-text">
-Version 2<br>
-Last updated 2023-03-10 10:15:36 -0500
+Version 1<br>
+Last updated 2023-03-10 10:07:30 -0500
 </div>
 </div>
 </body>
