@@ -3,8 +3,8 @@
 :toc:
 :imagesdir: images
 :icons: font
-:revnumber: 2
-:revdate: 2022-12-13
+:revnumber: 3
+:revdate: 2023-03-16
 
 :iTC-longname: Dedicated Security Components
 :iTC-shortname: DSC-iTC
@@ -56,14 +56,14 @@ The following are the documents are included in Version 1.0:
 
 |===
 
-*_Version 1.0.1 Draft_*
+*_Version 1.0.1 Draft2_*
 
-Publication Date:: December 13, 2022
+Publication Date:: March 16, 2023
 
 The following are the documents are included in Version 1.0.1:
 
-.v1.0.1 Draft Documents
-[[v1.0.1DraftDocTable]]
+.v1.0.1 Draft2 Documents
+[[v1.0.1Draft2DocTable]]
 [cols="5,1,1",options="header"]
 |===
 |Title 
@@ -72,11 +72,11 @@ The following are the documents are included in Version 1.0.1:
 
 .^|collaborative Protection Profile for Dedicated Security Component
 ^.^|1.0.1
-^.^|image:Crystal_Clear_mimetype_pdf.png[link=./v1/1.0.1/cPP_DSC_V1.0.1.pdf,40,] image:iconfinder_HTML_Logo_65687.png[link=./v1/1.0.1/cPP_DSC_V1.0.1.html,40,] image:GitHub-Mark-64px.png[link={iTC-GitHub}/releases/tag/v1.0.1-draft,40,]
+^.^|image:Crystal_Clear_mimetype_pdf.png[link=./v1/1.0.1/cPP_DSC_V1.0.1.pdf,40,] image:iconfinder_HTML_Logo_65687.png[link=./v1/1.0.1/cPP_DSC_V1.0.1.html,40,] image:GitHub-Mark-64px.png[link={iTC-GitHub}/releases/tag/v1.0.1-draft2,40,]
 
 .^|Supporting Document: Mandatory Technical Document: Evaluation Activities for collaborative Protection Profile for Dedicated Security Component
 ^.^|1.0.1
-^.^|image:Crystal_Clear_mimetype_pdf.png[link=./v1/1.0.1/SD_DSC_V1.0.1.pdf,40,] image:iconfinder_HTML_Logo_65687.png[link=./v1/1.0.1/SD_DSC_V1.0.1.html,40,] image:GitHub-Mark-64px.png[link={iTC-GitHub}/releases/tag/v1.0.1-draft,40,]
+^.^|image:Crystal_Clear_mimetype_pdf.png[link=./v1/1.0.1/SD_DSC_V1.0.1.pdf,40,] image:iconfinder_HTML_Logo_65687.png[link=./v1/1.0.1/SD_DSC_V1.0.1.html,40,] image:GitHub-Mark-64px.png[link={iTC-GitHub}/releases/tag/v1.0.1-draft2,40,]
 
 |===
 
