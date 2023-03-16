@@ -435,6 +435,24 @@ body.book #toc,body.book #preamble,body.book h1.sect0,body.book .sect1>h2{page-b
 #footer-text{color:rgba(0,0,0,.6);font-size:.9em}}
 @media amzn-kf8{#header,#content,#footnotes,#footer{padding:0}}
 </style>
+<style>
+.admonitionblock td.icon .icon-boilerplate:before {content:"\f023";color:#3F903E;}
+</style>
+<style>
+.admonitionblock td.icon .icon-review:before {content:"\f0ea";color:#FDB109;}
+</style>
+<style>
+.admonitionblock td.icon .icon-guidance:before {content:"\f02d";color:#0909FD;}
+</style>
+<style>
+.admonitionblock td.icon .icon-initial:before {content:"\f25a";color:#C50CCB;}
+</style>
+<style>
+.admonitionblock td.icon .icon-USB:before {content:"\f2db";color:#CB0C33;}
+</style>
+<style>
+.admonitionblock td.icon .icon-discussion:before {content:"\f086";color:#F5F008;}
+</style>
 </head>
 <body class="book toc2 toc-left">
 <div id="header">
@@ -870,17 +888,17 @@ body.book #toc,body.book #preamble,body.book h1.sect0,body.book .sect1>h2{page-b
 <a href="#SymmetricKeys">Table 9. </a>Supported Methods for Symmetric Key Cryptography Operation<br>
 <a href="#SDOAttrib">Table 10. </a>Supported Methods for SDO Attributes<br>
 <a href="#SDOAttribInit">Table 11. </a>Supported Methods for SDO Attributes Initialization<br>
-<a href="#eb3ef63c-f071-42a6-967c-8187c1b5837b">Table 12. </a>SFR-Objective Rationale<br>
-<a href="#5c6e80c8-6115-4128-8c83-183138ef363e">Table 13. </a>Security Assurance Requirements<br>
+<a href="#32a82580-cad7-4162-964b-b8624741d799">Table 12. </a>SFR-Objective Rationale<br>
+<a href="#07f7f9e9-3d7e-4608-960c-4368ff773029">Table 13. </a>Security Assurance Requirements<br>
 <a href="#AsymKeyGen">Table 14. </a>Supported Methods for Asymmetric Key Generation<br>
 <a href="#SymKeyGen">Table 15. </a>Supported Methods for Symmetric Encryption Key Generation<br>
 <a href="#KeyDerivation">Table 16. </a>Key Derivation Functions<br>
-<a href="#6353a330-b1d3-4df3-8700-b69dd64b8b04">Table 17. </a>Extended Components Definitions<br>
-<a href="#ce8d6f0e-d734-4d08-8aa4-f817f495fb0c">Table 18. </a>SFR Dependencies Rationale for Mandatory SFRs<br>
-<a href="#2113ed5d-1f95-4d4a-80cb-45c551d655f7">Table 19. </a>SFR Dependencies Rationale for Optional SFRs<br>
-<a href="#b845abea-d198-4d0d-a8a0-85538c6b059d">Table 20. </a>SFR Dependencies Rationale for Selection-Based SFRs<br>
-<a href="#a50580a8-b9cc-44d8-8fa1-9f400a879305">Table 21. </a>Glossary<br>
-<a href="#192c913b-941c-4c4e-a76c-5e6044b9ea64">Table 22. </a>Acronyms<br></p>
+<a href="#459961f8-0d6a-44c0-a057-d77b00bedff0">Table 17. </a>Extended Components Definitions<br>
+<a href="#187cb0ec-8015-4108-92d3-a305b22bbc89">Table 18. </a>SFR Dependencies Rationale for Mandatory SFRs<br>
+<a href="#462b8a36-bee5-46d2-b859-45dddc842a5c">Table 19. </a>SFR Dependencies Rationale for Optional SFRs<br>
+<a href="#3d249303-7cad-4ce0-87a7-7ec459179d83">Table 20. </a>SFR Dependencies Rationale for Selection-Based SFRs<br>
+<a href="#b9e4cd77-e9cd-4769-8b93-d215b8c43e3e">Table 21. </a>Glossary<br>
+<a href="#a2c0fb75-c80e-417d-984d-c223c1e2f346">Table 22. </a>Acronyms<br></p>
 </div>
 </div>
 </div>
@@ -1108,16 +1126,16 @@ body.book #toc,body.book #preamble,body.book h1.sect0,body.book .sect1>h2{page-b
 <div class="ulist">
 <ul>
 <li>
-<p>DSC - DSC with security attribute DSC.ID, which is the identity of the DSC</p>
+<p>S.DSC - DSC with security attribute DSC.ID, which is the identity of the DSC</p>
 </li>
 <li>
-<p>Admin - Admin (an authorized administrator with special privileges) security attribute Admin.ID - See <a href="#_roles">Section 2.4.1</a> for more discussion on Admin.</p>
+<p>S.Admin - Admin (an authorized administrator with special privileges) security attribute Admin.ID - See <a href="#_roles">Section 2.4.1</a> for more discussion on Admin.</p>
 </li>
 <li>
-<p>CA - CA (i.e. an authorized user or an application with a verifiable identity) with security attribute CA.ID - See <a href="#_roles">Section 2.4.1</a> for more discussion on users.</p>
+<p>S.CA - CA (i.e. an authorized user or an application with a verifiable identity) with security attribute CA.ID - See <a href="#_roles">Section 2.4.1</a> for more discussion on users.</p>
 </li>
 <li>
-<p>EPS - External Platform Storage (EPS) (e.g. transient SDE/SDO source and destination, in the case of data imported and exported for the sole use inside the DSC). In the case of a passive EPS, the DSC will properly protect the integrity and confidentiality of the objects it stores and retrieves from there. In the case of an active EPS with security attribute EPS.ID, the DSC and EPS may choose to create a secure channel through which they will pass objects back and forth.</p>
+<p>S.EPS - External Platform Storage (EPS) (e.g. transient SDE/SDO source and destination, in the case of data imported and exported for the sole use inside the DSC). In the case of a passive EPS, the DSC will properly protect the integrity and confidentiality of the objects it stores and retrieves from there. In the case of an active EPS with security attribute EPS.ID, the DSC and EPS may choose to create a secure channel through which they will pass objects back and forth.</p>
 </li>
 </ul>
 </div>
@@ -1127,25 +1145,25 @@ body.book #toc,body.book #preamble,body.book h1.sect0,body.book .sect1>h2{page-b
 <div class="ulist">
 <ul>
 <li>
-<p>P_SDO - Pre-provisioned SDOs (e.g. DSC.ID) with security attributes listed in the next paragraph.</p>
+<p>OB.P_SDO - Pre-provisioned SDOs (e.g. DSC.ID) with security attributes listed in the next paragraph.</p>
 </li>
 <li>
-<p>T_SDO - Transient SDOs or just SDOs (i.e. SDOs in the DSC currently, but are either ephemeral or are normally stored external to DSC when not in use) with security attributes listed in the next paragraphs. See <a href="#_key_usage">Section 2.4.2</a>, <a href="#_key_hierarchies">Section 2.4.4</a>, and <a href="#_sdes_and_sdos">Section 2.4.6</a> for more discussion on keys, which are the primary use cases for SDOs.</p>
+<p>OB.T_SDO - Transient SDOs or just SDOs (i.e. SDOs in the DSC currently, but are either ephemeral or are normally stored external to DSC when not in use) with security attributes listed in the next paragraphs. See <a href="#_key_usage">Section 2.4.2</a>, <a href="#_key_hierarchies">Section 2.4.4</a>, and <a href="#_sdes_and_sdos">Section 2.4.6</a> for more discussion on keys, which are the primary use cases for SDOs.</p>
 </li>
 <li>
-<p>AuthData - Authorization Data (including authentication data, e.g. PINs, passwords, tokens)</p>
+<p>OB.AuthData - Authorization Data (including authentication data, e.g. PINs, passwords, tokens)</p>
 </li>
 <li>
-<p>Pstate - Platform State (e.g. measurements and assertions)</p>
+<p>OB.Pstate - Platform State (e.g. measurements and assertions)</p>
 </li>
 <li>
-<p>FAACntr - Failed Authorization Attempt Counters</p>
+<p>OB.FAACntr - Failed Authorization Attempt Counters</p>
 </li>
 <li>
-<p>AntiReplay - Anti-replay tokens (e.g. counters, nonces, etc.)</p>
+<p>OB.AntiReplay - Anti-replay tokens (e.g. counters, nonces, etc.)</p>
 </li>
 <li>
-<p>Context - Session Context (The DSC may maintain one or more sessions with a CA involving one or more of SDOs, Authorization Data, Platform State, Failed Authorization Counters, and Anti-Replay Tokens. The DSC may represent internally the state of these objects at any given time in a Session Context) - See <a href="#_sessions">Section 2.4.3</a> for more discussion on sessions.</p>
+<p>OB.Context - Session Context (The DSC may maintain one or more sessions with a CA involving one or more of SDOs, Authorization Data, Platform State, Failed Authorization Counters, and Anti-Replay Tokens. The DSC may represent internally the state of these objects at any given time in a Session Context) - See <a href="#_sessions">Section 2.4.3</a> for more discussion on sessions.</p>
 </li>
 </ul>
 </div>
@@ -1208,22 +1226,22 @@ body.book #toc,body.book #preamble,body.book h1.sect0,body.book .sect1>h2{page-b
 <p>OP.Create (See Provision) - The DSC may create SDOs, SDEs, Authorization Data, Platform State, Anti-Replay Tokens, or Session Contexts with authorization from a CA or Admin.</p>
 </li>
 <li>
-<p>Use (See Process) - The DSC may use or perform a cryptographic operation on Pre-Provisioned SDOs, Transient SDOs, SDEs, Authorization Data, Platform State, Anti-Replay Tokens, or Session Contexts with Create authorization from a CA or Admin. Cryptographic operations may include encryption, decryption, hashing, signature generation, and signature verification.</p>
+<p>OP.Use (See Process) - The DSC may use or perform a cryptographic operation on Pre-Provisioned SDOs, Transient SDOs, SDEs, Authorization Data, Platform State, Anti-Replay Tokens, or Session Contexts with Create authorization from a CA or Admin. Cryptographic operations may include encryption, decryption, hashing, signature generation, and signature verification.</p>
 </li>
 <li>
-<p>Modify (See Process) - The DSC may modify SDOs, SDEs, Authorization Data, Platform State, Anti-Replay Tokens, or Session Contexts with authorization from a CA or Admin.</p>
+<p>OP.Modify (See Process) - The DSC may modify SDOs, SDEs, Authorization Data, Platform State, Anti-Replay Tokens, or Session Contexts with authorization from a CA or Admin.</p>
 </li>
 <li>
-<p>Attest (See Prove) - The DSC may create an attestation of Platform State using an SDO or Pre-Provisioned SDO and Anti-Replay Tokens as authorized by a CA or Admin respectively.</p>
+<p>OP.Attest (See Prove) - The DSC may create an attestation of Platform State using an SDO or Pre-Provisioned SDO and Anti-Replay Tokens as authorized by a CA or Admin respectively.</p>
 </li>
 <li>
-<p>Store (See Protect) - The DSC may store SDOs, SDEs, Authorization Data, Platform State, Anti-Replay Tokens, or Session Contexts in protected storage of the DSC. See section 2.4.5 for more discussion on protected storage.</p>
+<p>OP.Store (See Protect) - The DSC may store SDOs, SDEs, Authorization Data, Platform State, Anti-Replay Tokens, or Session Contexts in protected storage of the DSC. See section 2.4.5 for more discussion on protected storage.</p>
 </li>
 <li>
-<p>Export (See Propagate) - The DSC may export SDOs, SDEs, Authorization Data, Platform State, or Anti-Replay Tokens to a CA or EPS with the proper authorization from the owner of each object. In the case of EPS, the DSC will bind the objects to the DSC in such a way as to deny other DSCs or entities the ability to import, use, modify, attest, store, export, or destroy them. The DSC may export Session Contexts only to an EPS binding it in the same way as above.</p>
+<p>OP.Export (See Propagate) - The DSC may export SDOs, SDEs, Authorization Data, Platform State, or Anti-Replay Tokens to a CA or EPS with the proper authorization from the owner of each object. In the case of EPS, the DSC will bind the objects to the DSC in such a way as to deny other DSCs or entities the ability to import, use, modify, attest, store, export, or destroy them. The DSC may export Session Contexts only to an EPS binding it in the same way as above.</p>
 </li>
 <li>
-<p>Destroy (See Purge) - The DSC may purge SDOs, SDEs, Authorization Data, Platform State, Anti-Replay Tokens, or Session Contexts in protected storage with proper authorization from the owner of each object.</p>
+<p>OP.Destroy (See Purge) - The DSC may purge SDOs, SDEs, Authorization Data, Platform State, Anti-Replay Tokens, or Session Contexts in protected storage with proper authorization from the owner of each object.</p>
 </li>
 </ul>
 </div>
@@ -2364,7 +2382,7 @@ body.book #toc,body.book #preamble,body.book h1.sect0,body.book .sect1>h2{page-b
 <p>Unaltered SFRs are stated in the form used in [CC2] or their extended component definition (ECD);</p>
 </li>
 <li>
-<p>Refinement made in the PP: the added/removed text is indicated with bold text/strikethroughs. When text is substituted (i.e. some text is added in place of some other text, which is then deleted), only the added text is included;</p>
+<p>Refinement made in the PP: the added/removed text is indicated with <strong>bold text</strong>/<span class="line-through">strikethroughs</span>. When text is substituted (i.e. some text is added in place of some other text, which is then deleted), only the added text is included;</p>
 </li>
 </ul>
 </div>
@@ -2492,7 +2510,7 @@ body.book #toc,body.book #preamble,body.book h1.sect0,body.book .sect1>h2{page-b
 <dl>
 <dt class="hdlist1">FCS_CKM.1.1/KEK</dt>
 <dd>
-<p>The TSF shall generate key encryption keys in accordance with a specified cryptographic key generation algorithm corresponding to [selection:</p>
+<p>The TSF shall generate <strong>key encryption keys</strong> in accordance with a specified cryptographic key generation algorithm <strong>corresponding to <span class="underline">[selection:</strong></span></p>
 <div class="ulist">
 <ul>
 <li>
@@ -2613,7 +2631,7 @@ body.book #toc,body.book #preamble,body.book h1.sect0,body.book .sect1>h2{page-b
 <dl>
 <dt class="hdlist1">FCS_CKM.4.1</dt>
 <dd>
-<p>The TSF shall destroy cryptographic keys <strong>and keying material</strong> in accordance with a specified cryptographic key destruction <strong>method [selection:</strong></p>
+<p>The TSF shall destroy cryptographic keys <strong>and keying material</strong> in accordance with a specified cryptographic key destruction <strong>method <span class="underline">[selection:</strong></span></p>
 <div class="ulist">
 <ul>
 <li>
@@ -2637,7 +2655,7 @@ body.book #toc,body.book #preamble,body.book h1.sect0,body.book .sect1>h2{page-b
 <p><span class="underline"><strong>a new value of a key,</strong></span></p>
 </li>
 <li>
-<p><span class="underline"><strong>[*<em>assignment: some value that does not contain any CSP</em>]],</strong></span></p>
+<p><span class="underline"><strong>[<em>assignment: some value that does not contain any CSP</em>]],</strong></span></p>
 </li>
 </ul>
 </div>
@@ -2660,7 +2678,7 @@ body.book #toc,body.book #preamble,body.book h1.sect0,body.book .sect1>h2{page-b
 <div class="ulist">
 <ul>
 <li>
-<p><span class="underline"><strong>single overwrite consisting of [selection: zeroes, ones, pseudo-random pattern, a new value of a key of the same size, [*<em>assignment: some value that does not contain any CSP</em>]],</strong></span></p>
+<p><span class="underline"><strong>single overwrite consisting of [selection: zeroes, ones, pseudo-random pattern, a new value of a key of the same size, [<em>assignment: some value that does not contain any CSP</em>]],</strong></span></p>
 </li>
 <li>
 <p><span class="underline"><strong>block erase];</strong></span></p>
@@ -2803,19 +2821,19 @@ body.book #toc,body.book #preamble,body.book h1.sect0,body.book .sect1>h2{page-b
 <td class="tableblock halign-left valign-middle"><p class="tableblock">KAS1</p></td>
 <td class="tableblock halign-left valign-middle"><p class="tableblock">RSA-single party</p></td>
 <td class="tableblock halign-left valign-middle"><p class="tableblock"><span class="underline">[selection: 2048, 3072, 4096, 6144, 8192]</span> bits</p></td>
-<td class="tableblock halign-left valign-middle"><p class="tableblock">NIST SP 800-56Br2 section 8.2</p></td>
+<td class="tableblock halign-left valign-middle"><p class="tableblock">NIST SP 800-56Br2 Section 8.2</p></td>
 </tr>
 <tr>
 <td class="tableblock halign-left valign-middle"><p class="tableblock">KAS2</p></td>
 <td class="tableblock halign-left valign-middle"><p class="tableblock">RSA-both party</p></td>
 <td class="tableblock halign-left valign-middle"><p class="tableblock"><span class="underline">[selection: 2048, 3072, 4096, 6144, 8192]</span> bits</p></td>
-<td class="tableblock halign-left valign-middle"><p class="tableblock">NIST SP 800-56Br2 section 8.3</p></td>
+<td class="tableblock halign-left valign-middle"><p class="tableblock">NIST SP 800-56Br2 Section 8.3</p></td>
 </tr>
 <tr>
 <td class="tableblock halign-left valign-middle"><p class="tableblock">KTS-OAEP</p></td>
 <td class="tableblock halign-left valign-middle"><p class="tableblock">RSA</p></td>
 <td class="tableblock halign-left valign-middle"><p class="tableblock"><span class="underline">[selection: 2048, 3072, 4096, 6144, 8192]</span> bits</p></td>
-<td class="tableblock halign-left valign-middle"><p class="tableblock">NIST SP 800-56Br2 section 9</p></td>
+<td class="tableblock halign-left valign-middle"><p class="tableblock">NIST SP 800-56Br2 Section 9</p></td>
 </tr>
 <tr>
 <td class="tableblock halign-left valign-middle"><p class="tableblock">RSAES-PKCS1-v1_5</p></td>
@@ -3067,7 +3085,7 @@ body.book #toc,body.book #preamble,body.book h1.sect0,body.book .sect1>h2{page-b
 <p><span class="underline">[selection: RFC 8017, PKCS #1 v2.2 (Section 8.2); FIPS186-4, (Section 5.5)]</span> (RSASSA-PKCS1-v1_5)</p>
 </div>
 <div class="paragraph">
-<p>[.underline]#[selection: ISO10118-3, (Clause 10, 11); FIPS180-4, (Section 6)] (SHA)</p>
+<p><span class="underline">[selection: ISO10118-3, (Clause 10, 11); FIPS180-4, (Section 6)]</span> (SHA)</p>
 </div></div></td>
 </tr>
 <tr>
@@ -3214,7 +3232,7 @@ body.book #toc,body.book #preamble,body.book h1.sect0,body.book .sect1>h2{page-b
 </tr>
 <tr>
 <td class="tableblock halign-left valign-middle"><p class="tableblock">XTS-AES</p></td>
-<td class="tableblock halign-left valign-middle"><p class="tableblock">AES in XTS mode with unique [selection: consecutive non- negative integers starting at an arbitrary non-negative integer, data unit sequence numbers] tweak values</p></td>
+<td class="tableblock halign-left valign-middle"><p class="tableblock">AES in XTS mode with unique <span class="underline">[selection: consecutive non- negative integers starting at an arbitrary non-negative integer, data unit sequence numbers]</span> tweak values</p></td>
 <td class="tableblock halign-left valign-middle"><p class="tableblock"><span class="underline">[selection: 256 bits, 512 bits]</span></p></td>
 <td class="tableblock halign-left valign-middle"><div class="content"><div class="paragraph">
 <p>ISO 18033-3 (AES)</p>
@@ -3381,7 +3399,7 @@ body.book #toc,body.book #preamble,body.book h1.sect0,body.book .sect1>h2{page-b
 <dl>
 <dt class="hdlist1">FCS_STG_EXT.2.1</dt>
 <dd>
-<p>The TSF shall encrypt &#91; <em>AKs, SKs, KEKs, and <span class="underline">[selection: long-term trusted channel key material, all software-based key storage, no other keys]</em></span>] using one of the following methods: [<em>assignment: key encryption methods as specified in FCS_COP.1/<strong>KeyEnc</strong></em>].</p>
+<p>The TSF shall encrypt &#91; <em>AKs, SKs, KEKs, and <span class="underline">[selection: long-term trusted channel key material, all software-based key storage, no other keys]</em></span>] using one of the following methods: [<em>assignment: key encryption methods as specified in FCS_COP.1<strong>/KeyEnc</strong></em>].</p>
 </dd>
 </dl>
 </div>
@@ -3662,9 +3680,9 @@ body.book #toc,body.book #preamble,body.book h1.sect0,body.book .sect1>h2{page-b
 </dd>
 <dt class="hdlist1"><em>Application Note 17</em></dt>
 <dd>
-<p><em>If the DSC provides factory reset and requires an authorization to carry out the operation then the ST author selects either presentation of… and fills in the authorization data accepted (e.g. a PIN or a cryptographic token based on some specification referenced in the assigned value). If the DSC provides factory reset external to the DSC without requiring authorization then the ST author selects activation by external interface. This selection is intended for use when the device containing the DSC takes responsibility for obtaining and checking the authorization for factory reset.</em></p>
+<p><em>If the DSC provides factory reset and requires an authorization to carry out the operation then the ST author selects either <span class="underline">presentation of…</span> and fills in the authorization data accepted (e.g. a PIN or a cryptographic token based on some specification referenced in the assigned value). If the DSC provides factory reset external to the DSC without requiring authorization then the ST author selects <span class="underline">activation by external interface</span>. This selection is intended for use when the device containing the DSC takes responsibility for obtaining and checking the authorization for factory reset.</em></p>
 <div class="paragraph">
-<p><em>If any selection other than no actions or conditions is made in FDP_FRS_EXT.1.1, the selection-based SFR FDP_FRS_EXT.2 must be claimed.</em></p>
+<p><em>If any selection other than <span class="underline">no actions or conditions</span> is made in FDP_FRS_EXT.1.1, the selection-based SFR FDP_FRS_EXT.2 must be claimed.</em></p>
 </div>
 </dd>
 </dl>
@@ -3817,7 +3835,7 @@ body.book #toc,body.book #preamble,body.book h1.sect0,body.book .sect1>h2{page-b
 </dd>
 <dt class="hdlist1">FDP_SDC_EXT.1.2</dt>
 <dd>
-<p>The TSF shall use FCS_CKM.1/KEK to derive or generate the key to encrypt the SDEs.</p>
+<p>The TSF shall use FCS_CKM.1<strong>/KEK</strong> to derive or generate the key to encrypt the SDEs.</p>
 </dd>
 <dt class="hdlist1"><em>Application Note 22</em></dt>
 <dd>
@@ -3937,10 +3955,10 @@ body.book #toc,body.book #preamble,body.book h1.sect0,body.book .sect1>h2{page-b
 <p><em>It is possible for the TOE to have different rules for the treatment of different SDOs or groups of SDOs. For example, some SDOs may trigger a factory reset in the event of excessive authorization failures while others may only temporarily block future authorization attempts. The ST author should iterate this SFR for each distinct response the TSF can make (as defined by the selections in FIA_AFL_EXT.1.3) and the SDOs whose authorization failures will trigger these responses.</em></p>
 </div>
 <div class="paragraph">
-<p>XT.2 is selected in FIA_AFL_EXT.1.3, the selection-based SFR FIA_AFL_EXT.2 must be claimed._</p>
+<p><em>If <span class="underline">prevent all future authorization attempts indefinitely (i.e., lock), as described by FIA_AFL_EXT.2</span> is selected in FIA_AFL_EXT.1.3, the selection-based SFR FIA_AFL_EXT.2 must be claimed.</em></p>
 </div>
 <div class="paragraph">
-<p><em>If factory reset the TOE wiping out all non-persistent SDOs, as described by FDP_FRS_EXT.2 is selected in FIA_AFL_EXT.1.3, the selection-based SFR FDP_FRS_EXT.2 must be claimed.</em></p>
+<p><em>If <span class="underline">factory reset the TOE wiping out all non-persistent SDOs, as described by FDP_FRS_EXT.2</span> is selected in FIA_AFL_EXT.1.3, the selection-based SFR FDP_FRS_EXT.2 must be claimed.</em></p>
 </div>
 </dd>
 </dl>
@@ -4364,14 +4382,14 @@ body.book #toc,body.book #preamble,body.book h1.sect0,body.book .sect1>h2{page-b
 <div class="paragraph">
 <p><em>It is possible that the default attributes of some SDOs should be restrictive, and that the default attributes of other SDOs may be permissive. If this is the case, then the ST author should iterate this SFR and indicate in the TSS what the default attribute properties are for each SDO.</em></p>
 </div>
-</dd>
-</dl>
-</div>
 <div class="paragraph">
 <p><em>Policy as represented by the attributes in the SDO dictates whether or not a user must authenticate itself in order to authorize access to the SDO.</em></p>
 </div>
 <div class="paragraph">
 <p><em>It is possible that the attributes of some SDOs should remain unchanged, and that the attributes of other SDOs may be changed by authorized users. If this is the case, then the ST author should iterate this SFR and indicate in the TSS which SDOs apply to each iteration.</em></p>
+</div>
+</dd>
+</dl>
 </div>
 </div>
 <div class="sect3">
@@ -4662,7 +4680,7 @@ body.book #toc,body.book #preamble,body.book h1.sect0,body.book .sect1>h2{page-b
 <dl>
 <dt class="hdlist1">FPT_TST.1.1</dt>
 <dd>
-<p>The TSF shall run a suite of self tests <strong>during power-on start-up</strong>, <span class="underline">[selection:periodically during normal operation, at the request of the authorized user, <strong>at no other condition,</strong> at the conditions [<em>assignment: conditions under which self test should occur</em>]]</span> to demonstrate the correct operation of [the TSF].</p>
+<p>The TSF shall run a suite of self tests <strong>during power-on start-up</strong>, <span class="underline">[selection: periodically during normal operation, at the request of the authorized user, <strong>at no other condition,</strong> at the conditions [<em>assignment: conditions under which self test should occur</em>]]</span> to demonstrate the correct operation of [the TSF].</p>
 </dd>
 <dt class="hdlist1">FPT_TST.1.2</dt>
 <dd>
@@ -4712,7 +4730,7 @@ body.book #toc,body.book #preamble,body.book h1.sect0,body.book .sect1>h2{page-b
 <div class="paragraph">
 <p>The following rationale provides justification for each security objective for the TOE, showing that the SFRs are suitable to meet and achieve the security objectives:</p>
 </div>
-<table id="eb3ef63c-f071-42a6-967c-8187c1b5837b" class="tableblock frame-all grid-all stretch">
+<table id="32a82580-cad7-4162-964b-b8624741d799" class="tableblock frame-all grid-all stretch">
 <caption class="title">Table 12. SFR-Objective Rationale</caption>
 <colgroup>
 <col style="width: 25%;">
@@ -4745,7 +4763,7 @@ body.book #toc,body.book #preamble,body.book h1.sect0,body.book .sect1>h2{page-b
 <td class="tableblock halign-left valign-middle"><p class="tableblock">This requirement defines how access to an SDO is restored if excessive authentication failures trigger a lock on it.</p></td>
 </tr>
 <tr>
-<td class="tableblock halign-left valign-middle" rowspan="19"><p class="tableblock">O.AUTHORIZATION</p></td>
+<td class="tableblock halign-left valign-middle" rowspan="10"><p class="tableblock">O.AUTHORIZATION</p></td>
 <td class="tableblock halign-left valign-middle"><p class="tableblock">FCS_STG_EXT.1</p></td>
 <td class="tableblock halign-left valign-middle"><p class="tableblock">This requirement ensures that key data is placed into protected storage and cannot be modified by untrusted subjects.</p></td>
 </tr>
@@ -4786,6 +4804,7 @@ body.book #toc,body.book #preamble,body.book h1.sect0,body.book .sect1>h2{page-b
 <td class="tableblock halign-left valign-middle"><p class="tableblock">This requirement defines the default access restrictions that are enforced on SDO attributes if not overridden by specific access control policy rules.</p></td>
 </tr>
 <tr>
+<td class="tableblock halign-left valign-middle" rowspan="9"><p class="tableblock">O.AUTHORIZATION</p></td>
 <td class="tableblock halign-left valign-middle"><p class="tableblock">FMT_SMF.1</p></td>
 <td class="tableblock halign-left valign-middle"><p class="tableblock">This requirement defines the management functions that are provided by the TOE to authorized subjects.</p></td>
 </tr>
@@ -4822,7 +4841,7 @@ body.book #toc,body.book #preamble,body.book h1.sect0,body.book .sect1>h2{page-b
 <td class="tableblock halign-left valign-middle"><p class="tableblock">This requirement defines the access control that is enforced on an SDO if excessive authentication failures block access to it.</p></td>
 </tr>
 <tr>
-<td class="tableblock halign-left valign-middle" rowspan="19"><p class="tableblock">O.DATA_PROTECTION</p></td>
+<td class="tableblock halign-left valign-middle" rowspan="10"><p class="tableblock">O.DATA_PROTECTION</p></td>
 <td class="tableblock halign-left valign-middle"><p class="tableblock">FCS_COP.1/Hash</p></td>
 <td class="tableblock halign-left valign-middle"><p class="tableblock">This requirement provides a cryptographic operation for asserting the integrity of SDOs.</p></td>
 </tr>
@@ -4863,6 +4882,7 @@ body.book #toc,body.book #preamble,body.book h1.sect0,body.book .sect1>h2{page-b
 <td class="tableblock halign-left valign-middle"><p class="tableblock">This requirement ensures that all SDEs parsed by the TOE have verifiable integrity.</p></td>
 </tr>
 <tr>
+<td class="tableblock halign-left valign-middle" rowspan="9"><p class="tableblock">O.DATA_PROTECTION</p></td>
 <td class="tableblock halign-left valign-middle"><p class="tableblock">FDP_ITC_EXT.2</p></td>
 <td class="tableblock halign-left valign-middle"><p class="tableblock">This requirement ensures that all SDOs parsed by the TOE have verifiable integrity.</p></td>
 </tr>
@@ -4992,7 +5012,7 @@ body.book #toc,body.book #preamble,body.book h1.sect0,body.book .sect1>h2{page-b
 <td class="tableblock halign-left valign-middle"><p class="tableblock">This requirement ensures that all SDEs parsed by the TOE include appropriate binding metadata.</p></td>
 </tr>
 <tr>
-<td class="tableblock halign-left valign-middle" rowspan="24"><p class="tableblock">O.STRONG_CRYPTO</p></td>
+<td class="tableblock halign-left valign-middle" rowspan="10"><p class="tableblock">O.STRONG_CRYPTO</p></td>
 <td class="tableblock halign-left valign-middle"><p class="tableblock">FCS_CKM.1</p></td>
 <td class="tableblock halign-left valign-middle"><p class="tableblock">This requirement specifies the supported methods of key generation.</p></td>
 </tr>
@@ -5033,6 +5053,7 @@ body.book #toc,body.book #preamble,body.book h1.sect0,body.book .sect1>h2{page-b
 <td class="tableblock halign-left valign-middle"><p class="tableblock">This requirement ensures the use of strong methods to encrypt sensitive data.</p></td>
 </tr>
 <tr>
+<td class="tableblock halign-left valign-middle" rowspan="10"><p class="tableblock">O.STRONG_CRYPTO</p></td>
 <td class="tableblock halign-left valign-middle"><p class="tableblock">FCS_RBG_EXT.1</p></td>
 <td class="tableblock halign-left valign-middle"><p class="tableblock">This requirement ensures the use of strong random bit generation mechanisms.</p></td>
 </tr>
@@ -5073,6 +5094,7 @@ body.book #toc,body.book #preamble,body.book h1.sect0,body.book .sect1>h2{page-b
 <td class="tableblock halign-left valign-middle"><p class="tableblock">This requirement ensures the use of strong mechanism to perform key derivation.</p></td>
 </tr>
 <tr>
+<td class="tableblock halign-left valign-middle" rowspan="4"><p class="tableblock">O.STRONG_CRYPTO</p></td>
 <td class="tableblock halign-left valign-middle"><p class="tableblock">FCS_COP.1/PBKDF (selection-based)</p></td>
 <td class="tableblock halign-left valign-middle"><p class="tableblock">This requirement ensures the use of strong methods to derive keys from password data.</p></td>
 </tr>
@@ -5108,7 +5130,7 @@ body.book #toc,body.book #preamble,body.book h1.sect0,body.book .sect1>h2{page-b
 <div class="paragraph">
 <p>After the ST has been approved for evaluation, the ITSEF will obtain the TOE, supporting environmental IT (if required), and the administrative/user guides for the TOE. The ITSEF is expected to perform actions mandated by the Common Evaluation Methodology (CEM) for the ASE and ALC SARs. The ITSEF also performs the Evaluation Activities contained within the SD, which are intended to be an interpretation of the other CEM assurance requirements as they apply to the specific technology instantiated in the TOE. The Evaluation Activities that are captured in the SD also provide clarification as to what the developer needs to provide to demonstrate the TOE is compliant with the cPP.</p>
 </div>
-<table id="5c6e80c8-6115-4128-8c83-183138ef363e" class="tableblock frame-all grid-all stretch">
+<table id="07f7f9e9-3d7e-4608-960c-4368ff773029" class="tableblock frame-all grid-all stretch">
 <caption class="title">Table 13. Security Assurance Requirements</caption>
 <colgroup>
 <col style="width: 33.3333%;">
@@ -5177,7 +5199,7 @@ body.book #toc,body.book #preamble,body.book h1.sect0,body.book .sect1>h2{page-b
 <p>The ST is evaluated as per ASE activities defined in the CEM. In addition, there may be Evaluation Activities specified within the SD that call for necessary descriptions to be included in the TSS that are specific to the TOE technology type.</p>
 </div>
 <div class="paragraph">
-<p>In addition to using the ST to demonstrate that ASE_TSS.1 has been satisfied, this cPP requires the creation of supplemental documentation to justify how the TOE satisfies certain SFRs. This documentation is separated from the ST because the required level of detail may include information that is proprietary to the developer of the TOE. The required supplemental documentation includes entropy documentation and key management documentation. The requirements for the entropy documentation are described in Appendix D of this cPP. The requirements for the key management documentation are described in the SD under the SFRs that require a detailed description of the TSF&#8217;s key management.</p>
+<p>In addition to using the ST to demonstrate that ASE_TSS.1 has been satisfied, this cPP requires the creation of supplemental documentation to justify how the TOE satisfies certain SFRs. This documentation is separated from the ST because the required level of detail may include information that is proprietary to the developer of the TOE. The required supplemental documentation includes entropy documentation and key management documentation. The requirements for the entropy documentation are described in <a href="#_entropy_documentation_and_assessment">Appendix D, <em>Entropy Documentation and Assessment</em></a> of this cPP. The requirements for the key management documentation are described in the SD under the SFRs that require a detailed description of the TSF&#8217;s key management.</p>
 </div>
 </div>
 <div class="sect2">
@@ -5379,7 +5401,7 @@ body.book #toc,body.book #preamble,body.book h1.sect0,body.book .sect1>h2{page-b
 <dl>
 <dt class="hdlist1">FPT_ROT_EXT.3.1</dt>
 <dd>
-<p>The TSF shall be able to attest to a state as represented by platform characteristics with a Root of Trust for Reporting mechanism that uses for its identity <span class="underline">[selection: a cryptographically verifiable identity in FPT_PRO_EXT.1, an alias key bound to the cryptographically verifiable identity in FPT_PRO_EXT.1]</span> and using a signature algorithm as specified in FCS_COP.1/<strong>SigGen</strong>.</p>
+<p>The TSF shall be able to attest to a state as represented by platform characteristics with a Root of Trust for Reporting mechanism that uses for its identity <span class="underline">[selection: a cryptographically verifiable identity in FPT_PRO_EXT.1, an alias key bound to the cryptographically verifiable identity in FPT_PRO_EXT.1]</span> and using a signature algorithm as specified in FCS_COP.1<strong>/SigGen</strong>.</p>
 </dd>
 <dt class="hdlist1"><em>Application Note 46</em></dt>
 <dd>
@@ -5576,7 +5598,7 @@ body.book #toc,body.book #preamble,body.book h1.sect0,body.book .sect1>h2{page-b
 <dl>
 <dt class="hdlist1">FCS_CKM_EXT.5.1</dt>
 <dd>
-<p>The TSF shall generate cryptographic keys with <span class="underline">[selection: identifier as chosen from <a href="#KeyDerivation">Table 16, &#8220;Key Derivation Functions&#8221;</a>]</span> using [<em>input parameters as chosen from KeyDerivation for corresponding key types</em>], key derivation algorithm [<em>assignment: key derivation algorithms as chosen from <a href="#KeyDerivation">Table 16, &#8220;Key Derivation Functions&#8221;</a> for corresponding key types</em>], and specified cryptographic key sizes [<em>key sizes as chosen from <a href="#KeyDerivation">Table 16, &#8220;Key Derivation Functions&#8221;</a> for corresponding key types</em>] that meet the following: [<em>standards as chosen from <a href="#KeyDerivation">Table 16, &#8220;Key Derivation Functions&#8221;</a> for corresponding key types</em>].</p>
+<p>The TSF shall generate cryptographic keys with <span class="underline">[selection: identifier as chosen from <a href="#KeyDerivation">Table 16, &#8220;Key Derivation Functions&#8221;</a>]</span> using [<em>input parameters as chosen from <a href="#KeyDerivation">Table 16, &#8220;Key Derivation Functions&#8221;</a> for corresponding key types</em>], key derivation algorithm [<em>assignment: key derivation algorithms as chosen from <a href="#KeyDerivation">Table 16, &#8220;Key Derivation Functions&#8221;</a> for corresponding key types</em>], and specified cryptographic key sizes [<em>key sizes as chosen from <a href="#KeyDerivation">Table 16, &#8220;Key Derivation Functions&#8221;</a> for corresponding key types</em>] that meet the following: [<em>standards as chosen from <a href="#KeyDerivation">Table 16, &#8220;Key Derivation Functions&#8221;</a> for corresponding key types</em>].</p>
 </dd>
 </dl>
 </div>
@@ -5684,11 +5706,11 @@ body.book #toc,body.book #preamble,body.book h1.sect0,body.book .sect1>h2{page-b
 <td class="tableblock halign-left valign-middle"><p class="tableblock"><span class="underline">[selection: symmetric key, initialization vector, authentication token, authorization value, HMAC key, KMAC key]</span></p></td>
 <td class="tableblock halign-left valign-middle"><p class="tableblock">Two keys</p></td>
 <td class="tableblock halign-left valign-middle"><div class="content"><div class="paragraph">
-<p><span class="underline">[selection: AES-CCM, AES-GCM, AES-CBC, AES-KWP, AES-KW, CAM-CBC, CAM-CCM, CAM-GCM]</span> from FCS_COP.1/SKC Symmetric Key table</p>
+<p><span class="underline">[selection: AES-CCM, AES-GCM, AES-CBC, AES-KWP, AES-KW, CAM-CBC, CAM-CCM, CAM-GCM]</span> from <a href="#SymmetricKeys">Table 9, &#8220;Supported Methods for Symmetric Key Cryptography Operation&#8221;</a></p>
 </div></div></td>
 <td class="tableblock halign-left valign-middle"><p class="tableblock"><span class="underline">[selection: 128, 192, 256]</span> bits</p></td>
 <td class="tableblock halign-left valign-middle"><div class="content"><div class="paragraph">
-<p><span class="underline">[selection: see List of Standards in FCS_COP.1/SKC Symmetric Key table]</span></p>
+<p><span class="underline">[selection: see List of Standards in <a href="#SymmetricKeys">Table 9, &#8220;Supported Methods for Symmetric Key Cryptography Operation&#8221;</a>]</span></p>
 </div></div></td>
 </tr>
 <tr>
@@ -5747,7 +5769,7 @@ body.book #toc,body.book #preamble,body.book h1.sect0,body.book .sect1>h2{page-b
 <p><em>If keys are combined, the ST author shall describe which method of combination is used in order to justify that the effective entropy of each factor is preserved.</em></p>
 </div>
 <div class="paragraph">
-<p><em>The documentation of the product&#8217;s encryption key management should be detailed enough that, after reading, the evaluator will thoroughly understand the product&#8217;s key management and how it meets the requirements to ensure the keys are adequately protected. This documentation should include an essay and diagrams. This documentation is not required to be part of the <a href="#abbr_TSS">TSS</a>; it can be submitted as a separate document and marked as developer proprietary.</em></p>
+<p><em>The documentation of the product&#8217;s encryption key management should be detailed enough that, after reading, the evaluator will thoroughly understand the product&#8217;s key management and how it meets the requirements to ensure the keys are adequately protected. This documentation should include an essay and diagrams. This documentation is not required to be part of the TSS; it can be submitted as a separate document and marked as developer proprietary.</em></p>
 </div>
 <div class="paragraph">
 <p><em>SP 800-56C specifies a two-step key derivation procedure that employs an extraction-then-expansion technique for deriving keying material from a shared secret generated during a key establishment scheme. The Randomness Extraction step as described in Section 5 of SP 800-56C is followed by Key Expansion using the key derivation functions defined in SP 800-108.</em></p>
@@ -5805,7 +5827,7 @@ body.book #toc,body.book #preamble,body.book h1.sect0,body.book .sect1>h2{page-b
 </dd>
 <dt class="hdlist1">FDP_DAU.1.2/Prove</dt>
 <dd>
-<p>The TSF shall provide [<em>assignment: list of subjects</em>]with the ability to verify evidence of the validity of the indicated information.</p>
+<p>The TSF shall provide [<em>assignment: list of subjects</em>] with the ability to verify evidence of the validity of the indicated information.</p>
 </dd>
 <dt class="hdlist1"><em>Application Note 51</em></dt>
 <dd>
@@ -6080,7 +6102,7 @@ body.book #toc,body.book #preamble,body.book h1.sect0,body.book .sect1>h2{page-b
 <dl>
 <dt class="hdlist1">FTP_ITE_EXT.1.1</dt>
 <dd>
-<p>The TSF shall encrypt data for transfer between the TOE and [<em>assignment: list of entities external to the TOE</em>] using a cryptographic algorithm and key size as specified in FCS_COP.1/<strong>SKC</strong>, and using <span class="underline">[selection:</span></p>
+<p>The TSF shall encrypt data for transfer between the TOE and [<em>assignment: list of entities external to the TOE</em>] using a cryptographic algorithm and key size as specified in FCS_COP.1<strong>/SKC</strong>, and using <span class="underline">[selection:</span></p>
 <div class="ulist">
 <ul>
 <li>
@@ -6141,7 +6163,7 @@ body.book #toc,body.book #preamble,body.book h1.sect0,body.book .sect1>h2{page-b
 <div class="paragraph">
 <p>This Appendix provides a definition for all of the extended components introduced in this PP-Module. These components are identified in the following table:</p>
 </div>
-<table id="6353a330-b1d3-4df3-8700-b69dd64b8b04" class="tableblock frame-all grid-all stretch">
+<table id="459961f8-0d6a-44c0-a057-d77b00bedff0" class="tableblock frame-all grid-all stretch">
 <caption class="title">Table 17. Extended Components Definitions</caption>
 <colgroup>
 <col style="width: 33.3333%;">
@@ -7090,7 +7112,7 @@ Dependencies
 <dl>
 <dt>FDP_MFW_EXT.1.1</dt>
 <dd>
-<p>The TSF shall be maintained as [selection: immutable, mutable] firmware.</p>
+<p>The TSF shall be maintained as <span class="underline">[selection: immutable, mutable]</span> firmware.</p>
 </dd>
 </dl>
 </div>
@@ -7122,7 +7144,7 @@ FCS_COP.1 Cryptographic Operation</p>
 <dl>
 <dt>FDP_MFW_EXT.2.1</dt>
 <dd>
-<p>The TSF shall have the ability to verify the integrity of the firmware_._</p>
+<p>The TSF shall have the ability to verify the integrity of the firmware.</p>
 </dd>
 <dt>FDP_MFW_EXT.2.2</dt>
 <dd>
@@ -8197,7 +8219,7 @@ Dependencies
 <div class="paragraph">
 <p>The dependencies between SFRs implemented by the TOE are addressed as follows.</p>
 </div>
-<table id="ce8d6f0e-d734-4d08-8aa4-f817f495fb0c" class="tableblock frame-all grid-all stretch">
+<table id="187cb0ec-8015-4108-92d3-a305b22bbc89" class="tableblock frame-all grid-all stretch">
 <caption class="title">Table 18. SFR Dependencies Rationale for Mandatory SFRs</caption>
 <colgroup>
 <col style="width: 16.6666%;">
@@ -8467,7 +8489,7 @@ Dependencies
 </tr>
 </tbody>
 </table>
-<table id="2113ed5d-1f95-4d4a-80cb-45c551d655f7" class="tableblock frame-all grid-all stretch">
+<table id="462b8a36-bee5-46d2-b859-45dddc842a5c" class="tableblock frame-all grid-all stretch">
 <caption class="title">Table 19. SFR Dependencies Rationale for Optional SFRs</caption>
 <colgroup>
 <col style="width: 16.6666%;">
@@ -8511,7 +8533,7 @@ Dependencies
 </tr>
 </tbody>
 </table>
-<table id="b845abea-d198-4d0d-a8a0-85538c6b059d" class="tableblock frame-all grid-all stretch">
+<table id="3d249303-7cad-4ce0-87a7-7ec459179d83" class="tableblock frame-all grid-all stretch">
 <caption class="title">Table 20. SFR Dependencies Rationale for Selection-Based SFRs</caption>
 <colgroup>
 <col style="width: 16.6666%;">
@@ -8620,7 +8642,7 @@ Dependencies
 <div class="sect1">
 <h2 id="_glossary">Appendix F: Glossary</h2>
 <div class="sectionbody">
-<table id="a50580a8-b9cc-44d8-8fa1-9f400a879305" class="tableblock frame-all grid-all stretch">
+<table id="b9e4cd77-e9cd-4769-8b93-d215b8c43e3e" class="tableblock frame-all grid-all stretch">
 <caption class="title">Table 21. Glossary</caption>
 <colgroup>
 <col style="width: 25%;">
@@ -8811,7 +8833,7 @@ Dependencies
 <div class="sect1">
 <h2 id="_acronyms">Appendix G: Acronyms</h2>
 <div class="sectionbody">
-<table id="192c913b-941c-4c4e-a76c-5e6044b9ea64" class="tableblock frame-all grid-all stretch">
+<table id="a2c0fb75-c80e-417d-984d-c223c1e2f346" class="tableblock frame-all grid-all stretch">
 <caption class="title">Table 22. Acronyms</caption>
 <colgroup>
 <col style="width: 25%;">
@@ -9079,7 +9101,7 @@ Dependencies
 <div id="footer">
 <div id="footer-text">
 Version 1.0.1<br>
-Last updated 2022-12-19 22:15:07 -0500
+Last updated 2023-03-16 09:20:16 -0400
 </div>
 </div>
 </body>
