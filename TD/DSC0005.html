@@ -5,7 +5,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <meta name="generator" content="Asciidoctor 2.0.18">
-<title>Dedicated Security Components iTC Technical Decisions</title>
+<title>DSC0005 - FCS_COP.1/Hash Incorrect Testing Description</title>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:300,300italic,400,400italic,600,600italic%7CNoto+Serif:400,400italic,700,700italic%7CDroid+Sans+Mono:400,700">
 <style>
 /*! Asciidoctor default stylesheet | MIT License | https://asciidoctor.org */
@@ -457,118 +457,92 @@ body.book #toc,body.book #preamble,body.book h1.sect0,body.book .sect1>h2{page-b
 </head>
 <body class="article toc2 toc-left">
 <div id="header">
-<h1>Dedicated Security Components iTC Technical Decisions</h1>
+<h1>DSC0005 - FCS_COP.1/Hash Incorrect Testing Description</h1>
 <div class="details">
-<span id="revnumber">version 3,</span>
+<span id="revnumber">version 1,</span>
 <span id="revdate">2023-03-28</span>
 </div>
 <div id="toc" class="toc2">
 <div id="toctitle">Table of Contents</div>
 <ul class="sectlevel1">
-<li><a href="#_dedicated_security_components_technical_decisions">Dedicated Security Components Technical Decisions</a>
-<ul class="sectlevel2">
-<li><a href="#_technical_decision_links">Technical Decision Links</a></li>
-</ul>
-</li>
-<li><a href="#_active_technical_decisions">Active Technical Decisions</a></li>
+<li><a href="#_impacted_documents">Impacted Documents</a></li>
+<li><a href="#_references">References</a></li>
+<li><a href="#_issue_description">Issue Description</a></li>
+<li><a href="#_resolution">Resolution</a></li>
+<li><a href="#_sd_dsc_v1_0">SD_DSC_v1.0</a></li>
+<li><a href="#_tracking">Tracking</a></li>
 </ul>
 </div>
 </div>
 <div id="content">
-<div class="sect1">
-<h2 id="_dedicated_security_components_technical_decisions">Dedicated Security Components Technical Decisions</h2>
+<div id="preamble">
 <div class="sectionbody">
 <div class="paragraph">
-<p>The iTC issues Technical Decisions based on requests for interpretation to clarify and update the cPP and related documents between release cycles. This is the main page for Technical Decisions that have been issued by the iTC.</p>
-</div>
-<div class="sect2">
-<h3 id="_technical_decision_links">Technical Decision Links</h3>
-<div class="ulist">
-<ul>
-<li>
-<p><a href="https://github.com/DSC-iTC/cPP/issues/new/choose">New Request for Interpretation</a></p>
-</li>
-<li>
-<p><a href="tech-dec-arch.html">Archived Technical Decisions</a></p>
-</li>
-</ul>
-</div>
+<p>Published: 2023-03-28</p>
 </div>
 </div>
 </div>
 <div class="sect1">
-<h2 id="_active_technical_decisions">Active Technical Decisions</h2>
+<h2 id="_impacted_documents">Impacted Documents</h2>
 <div class="sectionbody">
-<table class="tableblock frame-all grid-all stretch">
-<colgroup>
-<col style="width: 11.1111%;">
-<col style="width: 22.2222%;">
-<col style="width: 11.1111%;">
-<col style="width: 11.1111%;">
-<col style="width: 22.2222%;">
-<col style="width: 22.2223%;">
-</colgroup>
-<thead>
-<tr>
-<th class="tableblock halign-left valign-middle">ID</th>
-<th class="tableblock halign-left valign-middle">Title</th>
-<th class="tableblock halign-left valign-middle">Reference</th>
-<th class="tableblock halign-left valign-middle">Publication Date</th>
-<th class="tableblock halign-left valign-middle">Impact</th>
-<th class="tableblock halign-left valign-middle">Included From</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td class="tableblock halign-left valign-middle"><p class="tableblock">DSC0001</p></td>
-<td class="tableblock halign-left valign-middle"><p class="tableblock"><a href="DSC0001.html">Additional Workload Options in FCS_COP.1/PBKDF</a></p></td>
-<td class="tableblock halign-left valign-middle"><p class="tableblock">FCS_COP.1/PBKDF</p></td>
-<td class="tableblock halign-left valign-middle"><p class="tableblock">2022-12-16</p></td>
-<td class="tableblock halign-left valign-middle"><p class="tableblock"><a href="/v1/1.0/cpp_dsc_v1.pdf">CPP_DSC_v1.0</a></p>
-<p class="tableblock"><a href="/v1/1.0/cpp_dsc_sd_v1.pdf">SD_DSC_v1.0</a></p></td>
-<td class="tableblock halign-left valign-middle"></td>
-</tr>
-<tr>
-<td class="tableblock halign-left valign-middle"><p class="tableblock">DSC0002</p></td>
-<td class="tableblock halign-left valign-middle"><p class="tableblock"><a href="DSC0002.html">Clarification on FPT_STM.1 clock location</a></p></td>
-<td class="tableblock halign-left valign-middle"><p class="tableblock">FPT_STM.1</p></td>
-<td class="tableblock halign-left valign-middle"><p class="tableblock">2023-03-10</p></td>
-<td class="tableblock halign-left valign-middle"><p class="tableblock"><a href="/v1/1.0/cpp_dsc_v1.pdf">CPP_DSC_v1.0</a></p>
-<p class="tableblock"><a href="/v1/1.0/cpp_dsc_sd_v1.pdf">SD_DSC_v1.0</a></p></td>
-<td class="tableblock halign-left valign-middle"></td>
-</tr>
-<tr>
-<td class="tableblock halign-left valign-middle"><p class="tableblock">DSC0003</p></td>
-<td class="tableblock halign-left valign-middle"><p class="tableblock"><a href="DSC0003.html">Editorial Corrections in Supporting Document</a></p></td>
-<td class="tableblock halign-left valign-middle"><p class="tableblock">FCS_STG_EXT.1, FDP_SDC_EXT.1, FMT_MOF_EXT.1, FPT_PRO_EXT.1, FCS_CKM.1/SK</p></td>
-<td class="tableblock halign-left valign-middle"><p class="tableblock">2023-03-10</p></td>
-<td class="tableblock halign-left valign-middle"><p class="tableblock"><a href="/v1/1.0/cpp_dsc_sd_v1.pdf">SD_DSC_v1.0</a></p></td>
-<td class="tableblock halign-left valign-middle"></td>
-</tr>
-<tr>
-<td class="tableblock halign-left valign-middle"><p class="tableblock">DSC0004</p></td>
-<td class="tableblock halign-left valign-middle"><p class="tableblock"><a href="DSC0004.html">FCS_CKM.1/SK References Unclear</a></p></td>
-<td class="tableblock halign-left valign-middle"><p class="tableblock">FCS_CKM.1/SK</p></td>
-<td class="tableblock halign-left valign-middle"><p class="tableblock">2023-03-10</p></td>
-<td class="tableblock halign-left valign-middle"><p class="tableblock"><a href="/v1/1.0/cpp_dsc_v1.pdf">CPP_DSC_v1.0</a></p></td>
-<td class="tableblock halign-left valign-middle"></td>
-</tr>
-<tr>
-<td class="tableblock halign-left valign-middle"><p class="tableblock">DSC0005</p></td>
-<td class="tableblock halign-left valign-middle"><p class="tableblock"><a href="DSC0005.html">FCS_COP.1/Hash Incorrect Testing Description</a></p></td>
-<td class="tableblock halign-left valign-middle"><p class="tableblock">FCS_COP.1/Hash</p></td>
-<td class="tableblock halign-left valign-middle"><p class="tableblock">2023-03-28</p></td>
-<td class="tableblock halign-left valign-middle"><p class="tableblock"><a href="/v1/1.0/cpp_dsc_sd_v1.pdf">SD_DSC_v1.0</a></p></td>
-<td class="tableblock halign-left valign-middle"></td>
-</tr>
-</tbody>
-</table>
+<div class="paragraph">
+<p><a href="/v1/1.0/cpp_dsc_sd_v1.pdf">SD_DSC_v1.0</a></p>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_references">References</h2>
+<div class="sectionbody">
+<div class="paragraph">
+<p>FCS_COP.1/Hash</p>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_issue_description">Issue Description</h2>
+<div class="sectionbody">
+<div class="paragraph">
+<p>In section 2.1.3.1.3, paragraph 62, the test requirements have the evaluator generate a set of 100 messages and associated digests to ensure the implementation of the algorithm. This is an incorrect description of the necessary test.</p>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_resolution">Resolution</h2>
+<div class="sectionbody">
+<div class="paragraph">
+<p>The test description is updated to correctly explain the testing requirements.</p>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_sd_dsc_v1_0">SD_DSC_v1.0</h2>
+<div class="sectionbody">
+<div class="paragraph">
+<p>The SD is updated as follows (yellow highlights for additions, strikethrough for deletions) per section that is being updated:</p>
+</div>
+<div class="paragraph">
+<p><strong>2.1.3.1.3 Test</strong></p>
+</div>
+<div class="paragraph">
+<p><strong>Pseudo-randomly Generated Messages Test</strong></p>
+</div>
+<div class="paragraph">
+<p>The evaluators randomly generate a seed that is n bits long, where n is the length of the message digest produced by the hash function to be tested. <span class="line-through">The evaluators then formulate a set of 100 messages and associated digests by following the algorithm provided in Figure 1 of SHAVS, section 6.4.</span> <mark>This seed is used by a pseudorandom function to generate 100,000 message digests. One hundred of the digests (every 1,000th digest) are recorded as checkpoints by following the algorithm provided in Figure 1 of SHAVS, section 6.4. The TOE then uses the same procedure to generate the same 100,000 message digests and 100 checkpoint values.</mark> The evaluators then ensure that the correct result is produced when the messages are provided to the TSF.</p>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_tracking">Tracking</h2>
+<div class="sectionbody">
+<div class="paragraph">
+<p><a href="https://github.com/DSC-iTC/cPP/issues/51">Issue #51</a></p>
+</div>
 </div>
 </div>
 </div>
 <div id="footer">
 <div id="footer-text">
-Version 3<br>
+Version 1<br>
 Last updated 2023-04-04 07:47:27 -0400
 </div>
 </div>
