@@ -1,0 +1,42 @@
+= DSC0005 - FCS_COP.1/Hash Incorrect Testing Description
+:showtitle:
+:imagesdir: images
+:icons: font
+:revnumber: 1
+:revdate: 2023-03-28
+:linkattrs:
+
+:iTC-longname: Dedicated Security Components
+:iTC-shortname: DSC-iTC
+:iTC-email: iTC-DSC@niap-ccevs.org
+:iTC-website: https://DSC-iTC.github.io/
+:iTC-GitHub: https://github.com/DSC-iTC/cPP/
+
+Published: {revdate}
+
+== Impacted Documents
+link:/v1/1.0/cpp_dsc_sd_v1.pdf[SD_DSC_v1.0]
+
+== References
+FCS_COP.1/Hash
+
+== Issue Description
+
+In section 2.1.3.1.3, paragraph 62, the test requirements have the evaluator generate a set of 100 messages and associated digests to ensure the implementation of the algorithm. This is an incorrect description of the necessary test.
+
+== Resolution
+
+The test description is updated to correctly explain the testing requirements.
+
+== SD_DSC_v1.0
+
+The SD is updated as follows (yellow highlights for additions, strikethrough for deletions) per section that is being updated:
+
+*2.1.3.1.3 Test*
+
+*Pseudo-randomly Generated Messages Test*
+
+The evaluators randomly generate a seed that is n bits long, where n is the length of the message digest produced by the hash function to be tested. [.line-through]#The evaluators then formulate a set of 100 messages and associated digests by following the algorithm provided in Figure 1 of SHAVS, section 6.4.# #This seed is used by a pseudorandom function to generate 100,000 message digests. One hundred of the digests (every 1,000th digest) are recorded as checkpoints by following the algorithm provided in Figure 1 of SHAVS, section 6.4. The TOE then uses the same procedure to generate the same 100,000 message digests and 100 checkpoint values.# The evaluators then ensure that the correct result is produced when the messages are provided to the TSF.
+
+== Tracking
+https://github.com/DSC-iTC/cPP/issues/51[Issue #51]

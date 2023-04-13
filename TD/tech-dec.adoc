@@ -2,8 +2,8 @@
 :showtitle:
 :imagesdir: images
 :icons: font
-:revnumber: 2
-:revdate: 2023-03-10
+:revnumber: 3
+:revdate: 2023-03-28
 :linkattrs:
 
 :iTC-longname: Dedicated Security Components
@@ -60,6 +60,13 @@ link:/v1/1.0/cpp_dsc_sd_v1.pdf[SD_DSC_v1.0]
 |FCS_CKM.1/SK
 |2023-03-10
 |link:/v1/1.0/cpp_dsc_v1.pdf[CPP_DSC_v1.0]
+|
+
+|DSC0005
+|link:DSC0005.html[FCS_COP.1/Hash Incorrect Testing Description]
+|FCS_COP.1/Hash
+|2023-03-28
+|link:/v1/1.0/cpp_dsc_sd_v1.pdf[SD_DSC_v1.0]
 |
 
 |===
