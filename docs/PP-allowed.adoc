@@ -3,8 +3,8 @@
 :toc: macro
 :imagesdir: images
 :icons: font
-:revnumber: 2
-:revdate: 2022-12-13
+:revnumber: 3
+:revdate: 2023-05-19
 
 :iTC-longname: Dedicated Security Components
 :iTC-shortname: DSC-iTC
@@ -14,7 +14,7 @@
 :pp-name: Dedicated Security Components cPP
 
 == Introduction
-This page lists the various cPPs and PP-Modules that are approved by the {iTC-shortname} to be used in conjunction with the {pp-name} in PP-Configurations.
+This page lists the various PPs, cPPs and PP-Modules that are approved by the {iTC-shortname} to be used in conjunction with the {pp-name} in PP-Configurations.
 
 == Approved Components
 .Allowed Components

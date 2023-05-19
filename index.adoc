@@ -3,8 +3,8 @@
 :toc:
 :imagesdir: images
 :icons: font
-:revnumber: 4
-:revdate: 2023-05-15
+:revnumber: 5
+:revdate: 2023-05-19
 
 :iTC-longname: Dedicated Security Components
 :iTC-shortname: DSC-iTC
@@ -81,7 +81,7 @@ The following are the documents are included in Version 1.0.1:
 |===
 
 == Protection Profile Allowed List
-The published <<v1.0DocTable, PP-Module>> can be used with Protection Profiles and PP-Modules listed on the link:./docs/PP-allowed.html[PP Allowed List].
+The published <<v1.0DocTable, Protection Profile>> can be used with other Protection Profiles and PP-Modules listed on the link:./docs/PP-allowed.html[PP Allowed List].
 
 == Technical Decisions
 Technical Decisions produced by the DIT can be found at the link:./TD/tech-dec.html[DSC-iTC Technical Decisions] page.
