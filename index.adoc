@@ -3,8 +3,8 @@
 :toc:
 :imagesdir: images
 :icons: font
-:revnumber: 5
-:revdate: 2023-10-31
+:revnumber: 6
+:revdate: 2024-01-16
 
 :iTC-longname: Dedicated Security Components
 :iTC-shortname: DSC-iTC
@@ -28,11 +28,11 @@ The DSC-iTC follows the document release process below for the publication of do
 ....
                                   
     +----------+    +----------+   +----------+   +----------+   +----------+
-    |          |    |  cYEL    |   | Public   |   |          |   | Public   |
+    |          |    |          |   | Public   |   |          |   | Public   |
     | Internal |    |  Public  |   | Review   |   |  Public  |   | Review   |
     |  Draft   |--> |  Review  |-->| Draft 1  |-->|  Review  |-->| Draft 2  |-+
     |          |    |  Draft 1 |   | Update   |   |  Draft 2 |   | Update   | |
-    |          |    |  (45d)   |   | (60d)    |   |  (45d)   |   | (60d)    | |
+    |          |    |  (45d)   |   | (60d)cYEL|   |  (45d)   |   | (60d)    | |
     +----------+    +----------+   +----------+   +----------+   +----------+ |
                                                                               |
             +-----------------------------------------------------------------+
