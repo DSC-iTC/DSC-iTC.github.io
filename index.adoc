@@ -3,8 +3,8 @@
 :toc:
 :imagesdir: images
 :icons: font
-:revnumber: 6
-:revdate: 2024-01-16
+:revnumber: 7
+:revdate: 2024-02-02
 
 :iTC-longname: Dedicated Security Components
 :iTC-shortname: DSC-iTC
@@ -24,6 +24,8 @@ The DSC cPP and SD v2.0 documents have been published for public review starting
 
 The DSC-iTC follows the document release process below for the publication of documents. For more detailed information about each step see the Overview document in <<v2.0PRD1DocTable>>.
 
+The {iTC-shortname} has determined more time is necessary during the draft update period and has extended it to 120 days from 60. The current interim draft of the cPP has been uploaded to the list of Public Review documents. At this point the SD has not been updated, and will be the focus of the remaining update period.
+
 [ditaa]
 ....
                                   
@@ -32,7 +34,7 @@ The DSC-iTC follows the document release process below for the publication of do
     | Internal |    |  Public  |   | Review   |   |  Public  |   | Review   |
     |  Draft   |--> |  Review  |-->| Draft 1  |-->|  Review  |-->| Draft 2  |-+
     |          |    |  Draft 1 |   | Update   |   |  Draft 2 |   | Update   | |
-    |          |    |  (45d)   |   | (60d)cYEL|   |  (45d)   |   | (60d)    | |
+    |          |    |  (45d)   |   |(120d)cYEL|   |  (45d)   |   | (60d)    | |
     +----------+    +----------+   +----------+   +----------+   +----------+ |
                                                                               |
             +-----------------------------------------------------------------+
@@ -71,6 +73,10 @@ End of Comment Period:: December  15, 2023
 |collaborative PP for Dedicated Security Components
 |2.0-PRD-1
 |image:Crystal_Clear_mimetype_pdf.png[link=./v2/2.0PRD-1/cPP-DSC-v2.0PRD-1.pdf,40,]  image:iconfinder_HTML_Logo_65687.png[link=./v2/2.0PRD-1/cPP-DSC-v2.0PRD-1.html,40,]
+
+|*collaborative PP for Dedicated Security Components interim draft*
+|*2.0-PRD-1-interim*
+|image:Crystal_Clear_mimetype_pdf.png[link=./v2/2.0PRD-1/cPP-DSC-v2.0PRD-1-interim.pdf,40,]  image:iconfinder_HTML_Logo_65687.png[link=./v2/2.0PRD-1/cPP-DSC-v2.0PRD-1-interim.html,40,]
 
 |Supporting Document for Dedicated Security Components
 |2.0-PRD-1
