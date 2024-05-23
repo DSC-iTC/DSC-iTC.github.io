@@ -52,7 +52,7 @@ The following are the documents included in this v2.0 Public Review Draft 2 Peri
 
 |===
 
-The following are the documents to use in support of the Public Review Draft 21 Period.
+The following are the documents to use in support of the Public Review Draft 2 Period.
 
 .Supporting Documents
 [[SupDocTable]]
