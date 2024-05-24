@@ -3,8 +3,8 @@
 :toc:
 :imagesdir: images
 :icons: font
-:revnumber: 7
-:revdate: 2024-02-02
+:revnumber: 8
+:revdate: 2024-05-24
 
 :iTC-longname: Dedicated Security Components
 :iTC-shortname: DSC-iTC
@@ -30,11 +30,11 @@ The {iTC-shortname} has determined more time is necessary during the draft updat
 ....
                                   
     +----------+    +----------+   +----------+   +----------+   +----------+
-    |          |    |          |   | Public   |   |          |   | Public   |
+    |          |    |          |   | Public   |   |  cYEL    |   | Public   |
     | Internal |    |  Public  |   | Review   |   |  Public  |   | Review   |
     |  Draft   |--> |  Review  |-->| Draft 1  |-->|  Review  |-->| Draft 2  |-+
     |          |    |  Draft 1 |   | Update   |   |  Draft 2 |   | Update   | |
-    |          |    |  (45d)   |   |(120d)cYEL|   |  (45d)   |   | (60d)    | |
+    |          |    |  (45d)   |   |(150d)    |   |  (45d)   |   | (60d)    | |
     +----------+    +----------+   +----------+   +----------+   +----------+ |
                                                                               |
             +-----------------------------------------------------------------+
@@ -52,39 +52,35 @@ The DSC cPP and SD v1.0 documents have been published and submitted for review b
 
 == Public Review
 
-*_v2.0 Public Review Draft-1 (PRD-1)_*
+*_v2.0 Public Review Draft-2 (PRD-2)_*
 
-Publication Date:: October 31, 2023
-End of Comment Period:: December  15, 2023
+Publication Date:: May 24, 2024
+End of Comment Period:: July 8, 2024
 
 
-.v2.0 Public Review Draft-1 Documents
-[[v2.0PRD1DocTable]]
+.v2.0 Public Review Draft-2 Documents
+[[v2.0PRD2DocTable]]
 [cols=".^5,^.^1,^.^1",options="header"]
 |===
 |Title 
 |Version 
 |Links
 
-|Public Review Draft 1 Overview
+|Public Review Draft 2 Overview
 |
-|image:Crystal_Clear_mimetype_pdf.png[link=./v2/2.0PRD-1/Public_review_2.0-PRD-1.pdf,40,] 
+|image:Crystal_Clear_mimetype_pdf.png[link=./v2/2.0PRD-2/Public_review_2.0-PRD-2.pdf,40,] 
 
 |collaborative PP for Dedicated Security Components
-|2.0-PRD-1
-|image:Crystal_Clear_mimetype_pdf.png[link=./v2/2.0PRD-1/cPP-DSC-v2.0PRD-1.pdf,40,]  image:iconfinder_HTML_Logo_65687.png[link=./v2/2.0PRD-1/cPP-DSC-v2.0PRD-1.html,40,]
-
-|*collaborative PP for Dedicated Security Components interim draft*
-|*2.0-PRD-1-interim*
-|image:Crystal_Clear_mimetype_pdf.png[link=./v2/2.0PRD-1/cPP-DSC-v2.0PRD-1-interim.pdf,40,]  image:iconfinder_HTML_Logo_65687.png[link=./v2/2.0PRD-1/cPP-DSC-v2.0PRD-1-interim.html,40,]
+|2.0-PRD-2
+|image:Crystal_Clear_mimetype_pdf.png[link=./v2/2.0PRD-2/cPP-DSC-v2.0PRD-2.pdf,40,]  image:iconfinder_HTML_Logo_65687.png[link=./v2/2.0PRD-2/cPP-DSC-v2.0PRD-2.html,40,]
 
 |Supporting Document for Dedicated Security Components
-|2.0-PRD-1
-|image:Crystal_Clear_mimetype_pdf.png[link=./v2/2.0PRD-1/SD-DSC-v2.0PRD-1.pdf,40,]  image:iconfinder_HTML_Logo_65687.png[link=./v2/2.0PRD-1/SD-DSC-v2.0PRD-1.html,40,]
+|2.0-PRD-2
+|image:Crystal_Clear_mimetype_pdf.png[link=./v2/2.0PRD-2/SD-DSC-v2.0PRD-2.pdf,40,]  image:iconfinder_HTML_Logo_65687.png[link=./v2/2.0PRD-2/SD-DSC-v2.0PRD-2.html,40,]
 
 |GitHub release package
 |
-|image:GitHub-Mark-64px.png[link={iTC-GitHub}/releases/tag/2.0-PRD-1,40,]
+|image:GitHub-Mark-64px.png[link={iTC-GitHub}/releases/tag/2.0-PRD-2,40,]
 
 |===
 
@@ -134,5 +130,4 @@ Technical Decisions produced by the DIT can be found at the link:./TD/tech-dec.h
 * link:/library.html[Documentation Library]
 * https://github.com/DSC-iTC/Governance[{iTC-shortname} Governing Documents]
 * {iTC-GitHub}[{iTC-shortname} GitHub repository]
-
-
+* link:/release_archive.html[Previous releases archive list]
