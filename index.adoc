@@ -22,7 +22,7 @@ To join the {iTC-shortname}, please send an email to {iTC-email} and include the
 == Current Status
 The DSC cPP and SD v2.0 documents have been published for public review starting on October 31, 2023. This process is expected to conclude after several review rounds in the summer of 2024. This draft builds on the work done to convert to asciidoc and work in GitHub. See the <<Public Review>> section for more information about the documents and review process.
 
-The DSC-iTC follows the document release process below for the publication of documents. For more detailed information about each step see the Overview document in <<v2.0PRD1DocTable>>.
+The DSC-iTC follows the document release process below for the publication of documents. For more detailed information about each step see the Overview document in <<v2.0PRD2DocTable>>.
 
 The {iTC-shortname} has determined more time is necessary during the draft update period and has extended it to 120 days from 60. The current interim draft of the cPP has been uploaded to the list of Public Review documents. At this point the SD has not been updated, and will be the focus of the remaining update period.
 
