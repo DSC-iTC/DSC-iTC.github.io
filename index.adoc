@@ -3,8 +3,8 @@
 :toc:
 :imagesdir: images
 :icons: font
-:revnumber: 8
-:revdate: 2024-05-24
+:revnumber: 9
+:revdate: 2024-06-11
 
 :iTC-longname: Dedicated Security Components
 :iTC-shortname: DSC-iTC
@@ -70,9 +70,9 @@ End of Comment Period:: July 8, 2024
 |
 |image:Crystal_Clear_mimetype_pdf.png[link=./v2/2.0PRD-2/Public_review_2.0-PRD-2.pdf,40,] 
 
-|collaborative PP for Dedicated Security Components
+|collaborative PP for Dedicated Security Components (filename is 2a, as this has the proper version and date)
 |2.0-PRD-2
-|image:Crystal_Clear_mimetype_pdf.png[link=./v2/2.0PRD-2/cPP-DSC-v2.0PRD-2.pdf,40,]  image:iconfinder_HTML_Logo_65687.png[link=./v2/2.0PRD-2/cPP-DSC-v2.0PRD-2.html,40,]
+|image:Crystal_Clear_mimetype_pdf.png[link=./v2/2.0PRD-2/cPP-DSC-v2.0PRD-2a.pdf,40,]  image:iconfinder_HTML_Logo_65687.png[link=./v2/2.0PRD-2/cPP-DSC-v2.0PRD-2a.html,40,]
 
 |Supporting Document for Dedicated Security Components
 |2.0-PRD-2
