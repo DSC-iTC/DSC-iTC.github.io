@@ -3,8 +3,8 @@
 :toc:
 :imagesdir: images
 :icons: font
-:revnumber: 9
-:revdate: 2024-06-11
+:revnumber: 10
+:revdate: 2024-07-22
 
 :iTC-longname: Dedicated Security Components
 :iTC-shortname: DSC-iTC
@@ -24,17 +24,15 @@ The DSC cPP and SD v2.0 documents have been published for public review starting
 
 The DSC-iTC follows the document release process below for the publication of documents. For more detailed information about each step see the Overview document in <<v2.0PRD2DocTable>>.
 
-The {iTC-shortname} has determined more time is necessary during the draft update period and has extended it to 120 days from 60. The current interim draft of the cPP has been uploaded to the list of Public Review documents. At this point the SD has not been updated, and will be the focus of the remaining update period.
-
 [ditaa]
 ....
                                   
     +----------+    +----------+   +----------+   +----------+   +----------+
-    |          |    |          |   | Public   |   |  cYEL    |   | Public   |
+    |          |    |          |   | Public   |   |          |   | Public   |
     | Internal |    |  Public  |   | Review   |   |  Public  |   | Review   |
     |  Draft   |--> |  Review  |-->| Draft 1  |-->|  Review  |-->| Draft 2  |-+
     |          |    |  Draft 1 |   | Update   |   |  Draft 2 |   | Update   | |
-    |          |    |  (45d)   |   |(150d)    |   |  (45d)   |   | (60d)    | |
+    |          |    |  (45d)   |   |(150d)    |   |  (45d)   |   | (60d)cYEL| |
     +----------+    +----------+   +----------+   +----------+   +----------+ |
                                                                               |
             +-----------------------------------------------------------------+
