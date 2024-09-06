@@ -2,8 +2,8 @@
 :showtitle:
 :imagesdir: images
 :icons: font
-:revnumber: 1
-:revdate: 2024-05-24
+:revnumber: 2
+:revdate: 2024-09-06
 
 :iTC-longname: Dedicated Security Components
 :iTC-shortname: DSC-iTC
@@ -12,6 +12,38 @@
 :iTC-GitHub: https://github.com/DSC-iTC/cPP
 
 == Previous Release listings
+
+*_v2.0 Public Review Draft-2 (PRD-2)_*
+
+Publication Date:: May 24, 2024
+End of Comment Period:: July 8, 2024
+
+
+.v2.0 Public Review Draft-2 Documents
+[[v2.0PRD2DocTable]]
+[cols=".^5,^.^1,^.^1",options="header"]
+|===
+|Title 
+|Version 
+|Links
+
+|Public Review Draft 2 Overview
+|
+|image:Crystal_Clear_mimetype_pdf.png[link=./v2/2.0PRD-2/Public_review_2.0-PRD-2.pdf,40,] 
+
+|collaborative PP for Dedicated Security Components (filename is 2a, as this has the proper version and date)
+|2.0-PRD-2
+|image:Crystal_Clear_mimetype_pdf.png[link=./v2/2.0PRD-2/cPP-DSC-v2.0PRD-2a.pdf,40,]  image:iconfinder_HTML_Logo_65687.png[link=./v2/2.0PRD-2/cPP-DSC-v2.0PRD-2a.html,40,]
+
+|Supporting Document for Dedicated Security Components
+|2.0-PRD-2
+|image:Crystal_Clear_mimetype_pdf.png[link=./v2/2.0PRD-2/SD-DSC-v2.0PRD-2.pdf,40,]  image:iconfinder_HTML_Logo_65687.png[link=./v2/2.0PRD-2/SD-DSC-v2.0PRD-2.html,40,]
+
+|GitHub release package
+|
+|image:GitHub-Mark-64px.png[link={iTC-GitHub}/releases/tag/2.0-PRD-2,40,]
+
+|===
 
 *_v2.0 Public Review Draft-1 (PRD-1)_*
 

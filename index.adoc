@@ -3,8 +3,8 @@
 :toc:
 :imagesdir: images
 :icons: font
-:revnumber: 10
-:revdate: 2024-07-22
+:revnumber: 11
+:revdate: 2024-09-06
 
 :iTC-longname: Dedicated Security Components
 :iTC-shortname: DSC-iTC
@@ -22,7 +22,7 @@ To join the {iTC-shortname}, please send an email to {iTC-email} and include the
 == Current Status
 The DSC cPP and SD v2.0 documents have been published for public review starting on October 31, 2023. This process is expected to conclude after several review rounds in the summer of 2024. This draft builds on the work done to convert to asciidoc and work in GitHub. See the <<Public Review>> section for more information about the documents and review process.
 
-The DSC-iTC follows the document release process below for the publication of documents. For more detailed information about each step see the Overview document in <<v2.0PRD2DocTable>>.
+The DSC-iTC follows the document release process below for the publication of documents. For more detailed information about each step see the Overview document in <<v2.0PDDocTable>>.
 
 [ditaa]
 ....
@@ -32,12 +32,12 @@ The DSC-iTC follows the document release process below for the publication of do
     | Internal |    |  Public  |   | Review   |   |  Public  |   | Review   |
     |  Draft   |--> |  Review  |-->| Draft 1  |-->|  Review  |-->| Draft 2  |-+
     |          |    |  Draft 1 |   | Update   |   |  Draft 2 |   | Update   | |
-    |          |    |  (45d)   |   |(150d)    |   |  (45d)   |   | (60d)cYEL| |
+    |          |    |  (45d)   |   |(150d)    |   |  (45d)   |   | (60d)    | |
     +----------+    +----------+   +----------+   +----------+   +----------+ |
                                                                               |
             +-----------------------------------------------------------------+
             |   +----------+   +----------+   +-----------+
-            |   |          |   |          |   |           |
+            |   |  cYEL    |   |          |   |           |
             |   | Proposed |   | Proposed |   | Final     |
             +-->|  Draft   |-->|  Update  |-->| Document  |
                 |          |   |          |   | Published |
@@ -50,35 +50,35 @@ The DSC cPP and SD v1.0 documents have been published and submitted for review b
 
 == Public Review
 
-*_v2.0 Public Review Draft-2 (PRD-2)_*
+*_v2.0 Proposed Draft (PD)_*
 
-Publication Date:: May 24, 2024
-End of Comment Period:: July 8, 2024
+Publication Date:: September 6, 2024
+End of Comment Period:: October 11, 2024
 
 
-.v2.0 Public Review Draft-2 Documents
-[[v2.0PRD2DocTable]]
+.v2.0 Proposed Draft Documents
+[[v2.0PDDocTable]]
 [cols=".^5,^.^1,^.^1",options="header"]
 |===
 |Title 
 |Version 
 |Links
 
-|Public Review Draft 2 Overview
+|Proposed Draft Overview
 |
-|image:Crystal_Clear_mimetype_pdf.png[link=./v2/2.0PRD-2/Public_review_2.0-PRD-2.pdf,40,] 
+|image:Crystal_Clear_mimetype_pdf.png[link=./v2/2.0PD/Public_review_2.0-PD.pdf,40,] 
 
-|collaborative PP for Dedicated Security Components (filename is 2a, as this has the proper version and date)
-|2.0-PRD-2
-|image:Crystal_Clear_mimetype_pdf.png[link=./v2/2.0PRD-2/cPP-DSC-v2.0PRD-2a.pdf,40,]  image:iconfinder_HTML_Logo_65687.png[link=./v2/2.0PRD-2/cPP-DSC-v2.0PRD-2a.html,40,]
+|collaborative PP for Dedicated Security Components
+|2.0-PD
+|image:Crystal_Clear_mimetype_pdf.png[link=./v2/2.0PD/cPP-DSC-v2.0PD.pdf,40,]  image:iconfinder_HTML_Logo_65687.png[link=./v2/2.0PD/cPP-DSC-v2.0PD.html,40,]
 
 |Supporting Document for Dedicated Security Components
-|2.0-PRD-2
-|image:Crystal_Clear_mimetype_pdf.png[link=./v2/2.0PRD-2/SD-DSC-v2.0PRD-2.pdf,40,]  image:iconfinder_HTML_Logo_65687.png[link=./v2/2.0PRD-2/SD-DSC-v2.0PRD-2.html,40,]
+|2.0-PD
+|image:Crystal_Clear_mimetype_pdf.png[link=./v2/2.0PD/SD-DSC-v2.0PD.pdf,40,]  image:iconfinder_HTML_Logo_65687.png[link=./v2/2.0PD/SD-DSC-v2.0PD.html,40,]
 
 |GitHub release package
 |
-|image:GitHub-Mark-64px.png[link={iTC-GitHub}/releases/tag/2.0-PRD-2,40,]
+|image:GitHub-Mark-64px.png[link={iTC-GitHub}/releases/tag/2.0-PD,40,]
 
 |===
 
