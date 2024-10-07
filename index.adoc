@@ -3,8 +3,8 @@
 :toc:
 :imagesdir: images
 :icons: font
-:revnumber: 11
-:revdate: 2024-09-06
+:revnumber: 12
+:revdate: 2024-10-07
 
 :iTC-longname: Dedicated Security Components
 :iTC-shortname: DSC-iTC
@@ -13,7 +13,7 @@
 :iTC-GitHub: https://github.com/DSC-iTC/cPP
 
 == Introduction
-From the CCDB-established Working Group, the {iTC-longname} ({iTC-shortname} for short) was formed. The {iTC-shortname} consists of members of Certification Bodies, labs, vendors and academia working together to create requirements for biometric security testing.
+From the CCDB-established Working Group, the {iTC-longname} ({iTC-shortname} for short) was formed. The {iTC-shortname} consists of members of Certification Bodies, labs, vendors and academia working together to create requirements for testing underlying components for devices.
 
 https://www.commoncriteriaportal.org/communities/dedicated_security_components.cfm[Common Criteria Portal {iTC-shortname} Page]
 
