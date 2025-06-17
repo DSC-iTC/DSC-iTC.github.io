@@ -3,8 +3,8 @@
 :toc:
 :imagesdir: images
 :icons: font
-:revnumber: 13
-:revdate: 2024-10-28
+:revnumber: 14
+:revdate: 2025-06-17
 
 :iTC-longname: Dedicated Security Components
 :iTC-shortname: DSC-iTC
@@ -68,18 +68,18 @@ The DSC cPP and SD v2.0 documents have been published and submitted for review b
 |Oct 28, 2024
 |
 |image:Crystal_Clear_mimetype_pdf.png[link=./v2/2.0/cPP_DSC_V2.0.pdf,40,]  image:iconfinder_HTML_Logo_65687.png[link=./v2/2.0/cPP_DSC_V2.0.html,40,]
-|
-|
-|
+|2.0.1
+|June 17, 2025
+|image:Crystal_Clear_mimetype_pdf.png[link=./v2/2.0/cPP_DSC_V2.0.1.pdf,40,]  image:iconfinder_HTML_Logo_65687.png[link=./v2/2.0/cPP_DSC_V2.0.1.html,40,]
 
 |Supporting Document: Mandatory Technical Document: Evaluation Activities for collaborative Protection Profile for Dedicated Security Component
 |2.0
 |Oct 28, 2024
 |
 |image:Crystal_Clear_mimetype_pdf.png[link=./v2/2.0/SD_DSC_V2.0.pdf,40,]  image:iconfinder_HTML_Logo_65687.png[link=./v2/2.0/SD_DSC_V2.0.html,40,]
-|
-|
-|
+|2.0.1
+|June 17, 2025
+|image:Crystal_Clear_mimetype_pdf.png[link=./v2/2.0/SD_DSC_V2.0.1.pdf,40,]  image:iconfinder_HTML_Logo_65687.png[link=./v2/2.0/SD_DSC_V2.0.1.html,40,]
 
 |collaborative Protection Profile for Dedicated Security Component
 |1.0
@@ -111,14 +111,14 @@ The DSC cPP and SD v2.0 documents have been published and submitted for review b
 |Link
 
 |collaborative Protection Profile for Dedicated Security Component
-|2.0
-|Oct 28, 2024
-|image:GitHub-Mark-64px.png[link={iTC-GitHub}/releases/tag/2.0,40,]
+|2.0.1
+|June 17, 2025
+|image:GitHub-Mark-64px.png[link={iTC-GitHub}/releases/tag/2.0.1,40,]
 
 |Supporting Document: Mandatory Technical Document: Evaluation Activities for collaborative Protection Profile for Dedicated Security Component
-|2.0
-|Oct 28, 2024
-|image:GitHub-Mark-64px.png[link={iTC-GitHub}/releases/tag/2.0,40,]
+|2.0.1
+|June 17, 2025
+|image:GitHub-Mark-64px.png[link={iTC-GitHub}/releases/tag/2.0.1,40,]
 
 |===
 

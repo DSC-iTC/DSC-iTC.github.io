@@ -1,0 +1,192 @@
+= DSCA0006 - Post-Quantum Algorithm Support
+:showtitle:
+:imagesdir: images
+:icons: font
+:revnumber: 1
+:revdate: 2025-06-17
+:linkattrs:
+
+:iTC-longname: Dedicated Security Components
+:iTC-shortname: DSC-iTC
+:iTC-email: iTC-DSC@niap-ccevs.org
+:iTC-website: https://DSC-iTC.github.io/
+:iTC-GitHub: https://github.com/DSC-iTC/cPP/
+
+Published: {revdate}
+
+== Impacted Documents
+link:/v2/2.0/cPP_DSC_V2.0.pdf[*cPP_DSC_V2.0* PDF] | link:/v2/2.0/cPP_DSC_V2.0.html[*cPP_DSC_V2.0* HTML]
+
+link:/v2/2.0/SD_DSC_V2.0.pdf[*SD_DSC_V2.0* PDF] | link:/v2/2.0/SD_DSC_V2.0.html[*SD_DSC_V2.0* HTML]
+
+== Included from Documents
+link:/v2/2.0/cPP_DSC_V2.0.1.pdf[*cPP_DSC_V2.0.1* PDF] | link:/v2/2.0/cPP_DSC_V2.0.1.html[*cPP_DSC_V2.0.1* HTML]
+
+link:/v2/2.0/SD_DSC_V2.0.1.pdf[*SD_DSC_V2.0.1* PDF] | link:/v2/2.0/SD_DSC_V2.0.1.html[*SD_DSC_V2.0.1* HTML]
+
+== References
+FCS_COP.1.1/SigGen
+
+FCS_COP.1.1/SigVer
+
+FCS_CKM.1/AKG
+
+FCS_COP.1.1/KeyEncap
+
+== Issue Description
+
+To meet NIAP requirements regarding CNSA 2.0, PQC algorithms have been requested to be added to the cPP. 
+
+== Resolution
+
+ML-DSA, HashML-DSA and ML-KEM are added to the signature algorithm lists where appropriate in the cPP and corresponding changes to the SD are made to support algorithm testing for these new algorithms.
+
+== cPP_DSC_V2.0
+
+The cPP is updated as follows (yellow highlights for additions, strikethrough for deletions) per section that is being updated:
+
+=== FCS_COP.1.1/SigGen
+
+*Table 6. Allowed choices for FCS_COP.1/SigGen* is updated to add the following two rows at the bottom:
+
+[cols=".^1,.^2,.^2,.^2",options=header]
+|===
+
+|Identifier
+|Cryptographic Algorithm
+|Cryptographic Algorithm Parameters
+|List of Standards
+
+|#ML-DSA#
+|#ML-DSA.Sign#
+|#Parameter set = [selection: ML-DSA-44, ML-DSA-65, ML-DSA-87]#
+|#NIST FIPS 204 (Section 5.2)#
+
+|#HashML-DSA#
+|#HashML-DSA.Sign#
+|#Parameter set = [selection: ML-DSA-44, ML-DSA-65, ML-DSA-87] and hash function [selection: SHA-256, SHA-512/256, SHA3-256, SHAKE128, SHA-384, SHA3-384, SHA-512, SHA3-512, SHAKE256]#
+|#NIST FIPS 204 (Section 5.4)#
+
+|===
+
+*Application Note 7* adds the following text at the end:
+
+#_Per Section 5.4 of NIST FIPS 204, the collision strength of the hash function selected for the pre-hash of HashML-DSA must be at least the strength of the signature algorithm._#
+
+=== FCS_COP.1.1/SigVer
+
+*Table 7. Allowed choices for FCS_COP.1/SigVer* is updated to add the following two rows at the bottom:
+
+[cols=".^1,.^2,.^2,.^2",options=header]
+|===
+
+|Identifier
+|Cryptographic Algorithm
+|Cryptographic Algorithm Parameters
+|List of Standards
+
+|#ML-DSA#
+|#ML-DSA.Verify#
+|#Parameter set = [selection: ML-DSA-44, ML-DSA-65, ML-DSA-87]#
+|#NIST FIPS 204 (Section 5.2)#
+
+|#HashML-DSA#
+|#HashML-DSA.Verify#
+|#Parameter set = [selection: ML-DSA-44, ML-DSA-65, ML-DSA-87] and hash function [selection: SHA-256, SHA-512/256, SHA3-256, SHAKE128, SHA-384, SHA3-384, SHA-512, SHA3-512, SHAKE256]#
+|#NIST FIPS 204 (Section 5.4)#
+
+|===
+
+*Application Note 8* adds the following text at the end:
+
+#_Per Section 5.4 of NIST FIPS 204, the collision strength of the hash function selected for the pre-hash of HashML-DSA must be at least the strength of the signature algorithm._#
+
+=== FCS_CKM.1/AKG
+
+*Table 15. Allowed choices for FCS_CKM.1/AKG* is updated to add the following two rows at the bottom:
+
+[cols=".^1,.^2,.^2",options=header]
+|===
+
+|Cryptographic Key Generation Algorithm
+|Cryptographic Algorithm Parameters
+|List of Standards
+
+|#ML-KEM#
+|#Parameter set = [selection: ML-KEM-512, ML-KEM-768, ML-KEM-1024]#
+|#NIST FIPS 203 (Section 7.1)#
+
+|#ML-DSA#
+|#Parameter set = [selection: ML-DSA-44, ML-DSA-65, ML-DSA-87]#
+|#NIST FIPS 204 (Section 5.1)#
+
+|===
+
+=== FCS_COP.1.1/KeyEncap
+
+*Table 21. Allowed choices for FCS_COP.1/KeyEncap* is updated to add the following row at the bottom:
+
+[cols=".^1,.^2,.^2",options=header]
+|===
+
+|Cryptographic Key Generation Algorithm
+|Cryptographic Algorithm Parameters
+|List of Standards
+
+|#ML-KEM#
+|#Parameters set [*selection*: ML-KEM-512, ML-KEM-768, ML-KEM-1024]#
+|#NIST FIPS 203 (Section 7.2)#
+
+|===
+
+== SD_DSC_V2.0
+
+The SD is updated as follows (yellow highlights for additions, strikethrough for deletions) per section that is being updated (only the surrounding text is included, not the entire section being updated):
+
+*2.1.2.3.3. Test*
+
+* Modulus size (RSA)
+* Curve (ECDSA, EC-KCDSA, EdDSA)
+* Group size (DSA, KCDSA)
+* Private key size (LMS, HSS, XMSS, XMSS^MT^)
+* #Parameter set (ML-DSA, HashML-DSA)#
+* Padding scheme (RSA)
+* Hash or XOF algorithm
+
+*2.1.2.4.3. Test*
+
+* Modulus size (RSA)
+* Curve (ECDSA, EC-KCDSA, EdDSA)
+* Group size (DSA, KCDSA)
+* Private key size (LMS, HSS, XMSS, XMSS^MT^)
+* #Parameter set (ML-DSA, HashML-DSA)#
+* Padding scheme (RSA)
+* Hash or XOF algorithm
+
+*4.1.1.1.3. Test*
+
+* Modulus size (RSA)
+* Curve (ECC, EdDSA, EC-KCDSA)
+* Domain parameters (FFC)
+* Group size (KCDSA)
+* Private key size (LMS, HSS, XMSS, XMSS^MT^)
+* #Parameter set (ML-KEM, ML-DSA)#
+
+Each test group shall consist of at least 10 test cases meeting the following requirements:
+
+*4.1.2.3.3. Test*
+
+The developer shall provide sufficient information to the evaluator to properly define the implementation of the algorithm. The evaluator shall define at least one test group (a configuration of algorithm properties and associated test cases) for each combination of the following parameters, according to the implementation of the algorithm:
+
+* Modulus size #(RSA)#
+* #Parameter set (ML-KEM)#
+* Key agreement role (initiator or responder) #or operation (encapsulation or decapsulation)#
+* Hash algorithm (if applicable)
+* Associated data pattern (if applicable)
+* KDF configuration (if applicable)
+
+
+== Tracking
+https://github.com/DSC-iTC/cPP/issues/441[Issue #441]
+
+https://github.com/DSC-iTC/cPP/pull/427[Pull Reqeust #427]

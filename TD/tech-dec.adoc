@@ -2,8 +2,8 @@
 :showtitle:
 :imagesdir: images
 :icons: font
-:revnumber: 3
-:revdate: 2023-03-28
+:revnumber: 4
+:revdate: 2025-06-17
 :linkattrs:
 
 :iTC-longname: Dedicated Security Components
@@ -68,5 +68,16 @@ link:/v1/1.0/cpp_dsc_sd_v1.pdf[SD_DSC_v1.0]
 |2023-03-28
 |link:/v1/1.0/cpp_dsc_sd_v1.pdf[SD_DSC_v1.0]
 |
+
+|DSCA0006
+|link:DSCA0006.html[Post-Quantum Algorithm Support]
+|FCS_COP.1.1/SigGen, FCS_COP.1.1/SigVer, FCS_CKM.1/AKG, FCS_COP.1.1/KeyEncap
+|2025-06-17
+|link:/v2/2.0/cPP_DSC_V2.0.pdf[cPP_DSC_V2.0]
+
+link:/v2/2.0/SD_DSC_V2.0.pdf[SD_DSC_V2.0]
+|link:/v2/2.0/cPP_DSC_V2.0.1.pdf[cPP_DSC_V2.0.1]
+
+link:/v2/2.0/SD_DSC_V2.0.1.pdf[SD_DSC_V2.0.1]
 
 |===
