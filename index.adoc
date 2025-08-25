@@ -37,7 +37,7 @@ Currently a Proposed Draft for v2.1 has been posted including updates based on c
                                                                               |
             +-----------------------------------------------------------------+
             |   +----------+   +----------+   +-----------+
-            |   |  cYEL    |   |          |   | cYEL      |
+            |   |  cYEL    |   |          |   |           |
             |   | Proposed |   | Proposed |   | Final     |
             +-->|  Draft   |-->|  Update  |-->| Document  |
                 |          |   |          |   | Published |
