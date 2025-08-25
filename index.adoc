@@ -3,8 +3,8 @@
 :toc:
 :imagesdir: images
 :icons: font
-:revnumber: 14
-:revdate: 2025-06-17
+:revnumber: 15
+:revdate: 2025-08-25
 
 :iTC-longname: Dedicated Security Components
 :iTC-shortname: DSC-iTC
@@ -22,6 +22,8 @@ To join the {iTC-shortname}, please send an email to {iTC-email} and include the
 == Current Status
 The {iTC-longname} cPP and SD v2.0 documents have been published on October 28, 2024. 
 
+Currently a Proposed Draft for v2.1 has been posted including updates based on comments received post the v2.0 publication.
+
 [ditaa]
 ....
                                   
@@ -35,7 +37,7 @@ The {iTC-longname} cPP and SD v2.0 documents have been published on October 28, 
                                                                               |
             +-----------------------------------------------------------------+
             |   +----------+   +----------+   +-----------+
-            |   |          |   |          |   | cYEL      |
+            |   |  cYEL    |   |          |   | cYEL      |
             |   | Proposed |   | Proposed |   | Final     |
             +-->|  Draft   |-->|  Update  |-->| Document  |
                 |          |   |          |   | Published |
@@ -136,12 +138,12 @@ No documents are currently under reivew.
 |Links
 
 |Proposed Draft Overview
-|
-| 
+|v2.1PD
+|image:Crystal_Clear_mimetype_pdf.png[link=./v2.1/2.1/Public_review_2.1-PD.pdf,40,]
 
 |GitHub release package
-|
-|
+|v2.1PD
+|image:GitHub-Mark-64px.png[link={iTC-GitHub}/releases/tag/2.1-PD,40,]
 
 |===
 

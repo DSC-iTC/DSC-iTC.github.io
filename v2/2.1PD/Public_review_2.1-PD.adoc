@@ -1,0 +1,172 @@
+= Proposed Draft of the DSC iTC cPP & Supporting Document v2.1 Overview
+:showtitle:
+:toc:
+:toclevels: 3
+:table-caption: Table
+:revnumber: 1.0
+:revdate: August 25, 2025
+:xrefstyle: full
+
+:iTC-longname: Dedicated Security Components
+:iTC-shortname: DSC-iTC
+:iTC-ITname: DIT
+:iTC-email: iTC-DSC@niap-ccevs.org
+:iTC-website: https://DSC-iTC.github.io/
+:iTC-GitHub: https://github.com/DSC-iTC/cPP
+
+== Introduction
+
+This is an announcement of a public review period for the cPP and Supporting Document from the DSC-iTC.
+
+This document will provide information about where to find the documents, how to provide feedback and information about the current status of the documents.
+
+Please email {iTC-email} if there are any questions about the Review process.
+
+The latest status of the Review Period, including the latest copies of any documents, can be found at the {iTC-GitHub}[DSC iTC page].
+
+== Review Status Phase
+The documents listed here are in the v2.1 *Proposed Draft* phase.
+
+Publication Date:: August 25, 2025
+End of Comment Period:: October 6, 2025
+
+== Documents for Review
+
+The following are the documents included in this v2.1 Proposed Draft Period:
+
+.Review Documents
+[[DocTable]]
+[cols="3,1,2",options="header"]
+|===
+|Title 
+^|Version 
+^|Link
+
+|collaborative PP for Dedicated Security Components
+^.^|2.1-PD-1
+^.^|{iTC-website}/v2.1/2.1PD/cPP-DSC-v2.1PD.pdf[Download cPP]
+
+|Supporting Document for Dedicated Security Components
+^.^|2.1-PD-1
+^.^|{iTC-website}/v2.1/2.1PD/SD-DSC-v2.1PD.pdf[Download Supporting Document]
+
+|===
+
+The following are the documents to use in support of the Proposed Draft Period.
+
+.Supporting Documents
+[[SupDocTable]]
+[cols="1,1",options="header"]
+|===
+|Title ^|Link
+
+.^|Comment Matrix
+^|{iTC-website}/comment/DSC-iTC-CommentsMatrix.xlsx[Download Comment Matrix]
+
+
+|===
+
+== Document Release Process
+The {iTC-shortname} follows the document release process below for the publication of documents. Generally the cPP and SD would be released at the same time.
+
+[ditaa]
+....
+                                  
+    +----------+    +----------+   +----------+   +----------+   +----------+
+    |          |    |          |   | Public   |   |          |   | Public   |
+    | Internal |    |  Public  |   | Review   |   |  Public  |   | Review   |
+    |  Draft   |--> |  Review  |-->| Draft 1  |-->|  Review  |-->| Draft 2  |-+
+    |          |    |  Draft 1 |   | Update   |   |  Draft 2 |   | Update   | |
+    |          |    |  (45d)   |   | (150d)   |   |  (45d)   |   | (60d)    | |
+    +----------+    +----------+   +----------+   +----------+   +----------+ |
+                                                                              |
+            +-----------------------------------------------------------------+
+            |   +----------+   +----------+   +-----------+
+            |   | cYEL     |   |          |   |           |
+            |   | Proposed |   | Proposed |   | Final     |
+            +-->|  Draft   |-->|  Update  |-->| Document  |
+                |          |   |          |   | Published |
+                | (30d)    |   | (10d)    |   |           |
+                +----------+   +----------+   +-----------+
+....
+
+.Review Timeline
+[[timeline]]
+[cols=".^2,.^1,3",options="header"]
+|===
+
+|Phase 
+|Time 
+|Description
+
+|Internal Draft
+|
+|The normal, pre-release process for creating the documents
+
+|Public Review Draft 1
+|45 days
+|iTC has voted according to Terms of Reference to release this version for public review. Public (i.e. from non-iTC participants) comments are accepted during this period
+
+|Public Review Draft 1 Update
+|Up to 60 days (ended up at 150 days)
+|The iTC will review all received comments and update the documents accordingly
+
+|Public Review Draft 2
+|45 days
+|iTC has voted according to Terms of Reference to release this version for public review. Public (i.e. from non-iTC participants) comments are accepted during this period
+
+PAD Toolbox drafts will be published with this review (final review on toolboxes may proceed independently from rest of documents).
+
+|Public Review Draft 2 Update
+|Up to 60 days
+|The iTC will review all received comments and update the documents accordingly
+
+|Public Review Draft 3 (Optional, not shown)
+|45 days
+|iTC has voted according to Terms of Reference to release this version for public review. Public (i.e. from non-iTC participants) comments are accepted during this period
+
+|Public Review Draft 3 Update (Optional, not shown)
+|Up to 60 days
+|The iTC will review all received comments and update the documents accordingly
+
+|Proposed Draft
+|30 days
+|iTC has voted according to Terms of Reference to propose this as the final document. Public (i.e. from non-iTC participants) comments are accepted during this period
+
+|Proposed Update
+|10 days
+|iTC reviews any further comments and prepares the document for final publishing (updating all dates, producing official versions for publication)
+
+|Final Document Published
+|
+|Documents are posted to Common Criteria Portal
+
+|===
+
+The iTC may decide, based on the comments received during the Public Review Draft 1 period, that a Public Review Draft 2 period is needed. Public announcement of a second review draft or a proposed draft will be made once all comments have been addressed.
+
+=== Review Process
+There are two ways to contribute comments and suggestions to the iTC. The first is through {iTC-GitHub}[GitHub], the second by spreadsheet. It should be noted however that comments that are received via the spreadsheet will be added to the GitHub platform to allow for a comprehensive discussion. Also, feedback for comments is only provided via the answers in the GitHub comments. 
+
+Each comment should have a suggested resolution be proposed if a change is needed to the document.
+
+==== GitHub Review Process
+To use GitHub to submit comments, you must have a GitHub account (and it is assumed you know how to use GitHub). Each comment should be submitted as an individual {iTC-GitHub}/issues[Issue] with the Label "Public Review" assigned. Pull Requests created for any issues will be linked to these Issues for traceability.
+
+==== Comment Matrix Spreadsheet Review Process
+In the <<SupDocTable>> table there is a link to the Comment Matrix spreadsheet. There are instructions for using the Matrix on the second worksheet. Please create a separate copy of the spreadsheet for each document.
+
+Email the spreadsheets to {iTC-email}.
+
+== Additional Notes
+This new version of the cPP is focused on addressing several comments that were made to the v2.0 publication and to update the cryptographic 
+
+The areas noted below should be considered when making comments.
+
+=== Cryptographic Updates
+The v2.1 cPP will utilize the Crypto Catalog that has been under development by the CCDB for some time. NIAP-required PQC algorithms have been added, the published version of the Cryptographic Catalog was integrated, and then further changes were made to better align with the requirements for a DSC.
+
+Importantly, note that the Crypto Catalog still does not include generally agreed on evaluation activities, so no changes were made in the SD related to cryptographic requirements except for the PQC additions. Any comments about cryptographic requirements in the SD will be automatically rejected during this review as these will be updated once that work is published for use.
+
+=== App Notes
+Many of the app notes have been rewritten to align with not having requirements buried in them, removing terms such as SHALL, MUST and SHOULD. 
