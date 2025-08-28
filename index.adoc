@@ -139,7 +139,7 @@ The v2.1 Proposed Draft is currently posted for review.
 
 |Proposed Draft Overview
 |v2.1PD
-|image:Crystal_Clear_mimetype_pdf.png[link=./v2/2.1/Public_review_2.1-PD.pdf,40,]
+|image:Crystal_Clear_mimetype_pdf.png[link=./v2/2.1PD/Public_review_2.1-PD.pdf,40,]
 
 |GitHub release package
 |v2.1PD
