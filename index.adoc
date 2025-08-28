@@ -3,8 +3,8 @@
 :toc:
 :imagesdir: images
 :icons: font
-:revnumber: 15
-:revdate: 2025-08-25
+:revnumber: 16
+:revdate: 2025-08-28
 
 :iTC-longname: Dedicated Security Components
 :iTC-shortname: DSC-iTC
@@ -127,7 +127,7 @@ The DSC cPP and SD v2.0 documents have been published and submitted for review b
 All previous published versions since v1.0 can be found at {iTC-GitHub}/releases[Releases DSC-iTC/cPP] (this includes all the interim versions up to the publication of v2.0).
 
 == Current Documents for Review
-No documents are currently under reivew.
+The v2.1 Proposed Draft is currently posted for review.
 
 .Draft Documents
 [[PDDocTable]]
@@ -139,7 +139,7 @@ No documents are currently under reivew.
 
 |Proposed Draft Overview
 |v2.1PD
-|image:Crystal_Clear_mimetype_pdf.png[link=./v2.1/2.1/Public_review_2.1-PD.pdf,40,]
+|image:Crystal_Clear_mimetype_pdf.png[link=./v2/2.1/Public_review_2.1-PD.pdf,40,]
 
 |GitHub release package
 |v2.1PD
