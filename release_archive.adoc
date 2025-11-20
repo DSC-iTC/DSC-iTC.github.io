@@ -2,8 +2,8 @@
 :showtitle:
 :imagesdir: images
 :icons: font
-:revnumber: 2
-:revdate: 2024-09-06
+:revnumber: 3
+:revdate: 2025-11-20
 
 :iTC-longname: Dedicated Security Components
 :iTC-shortname: DSC-iTC
@@ -12,6 +12,30 @@
 :iTC-GitHub: https://github.com/DSC-iTC/cPP
 
 == Previous Release listings
+
+*_v2.1 Proposed Draft_*
+
+Publication Date:: August 25, 2025
+End of Comment Period:: October 6, 2025
+
+.v2.1 Proposed Draft Documents
+[[v2.1PDDocTable]]
+[cols=".^5,^.^1,^.^1",options="header"]
+|===
+|Title
+|Version
+|Links
+
+|Proposed Draft Overview
+|v2.1PD
+|image:Crystal_Clear_mimetype_pdf.png[link=./v2/2.1PD/Public_review_2.1-PD.pdf,40,]
+
+|GitHub release package
+|v2.1PD
+|image:GitHub-Mark-64px.png[link={iTC-GitHub}/releases/tag/2.1-PD,40,]
+
+|===
+
 
 *_v2.0 Public Review Draft-2 (PRD-2)_*
 
