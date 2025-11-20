@@ -104,3 +104,26 @@ End of Comment Period:: December  15, 2023
 |image:GitHub-Mark-64px.png[link={iTC-GitHub}/releases/tag/2.0-PRD-1,40,]
 
 |===
+
+*_v1.0_*
+
+Publication Date:: September 10, 2020
+Sunset Date:: April 28, 2025
+
+.v1.0 Documents
+[[v1.0DocTable]]
+[cols=".^5,^.^1,^.^1",options="header"]
+|===
+|Title
+|Version
+|Links
+
+|collaborative Protection Profile for Dedicated Security Component
+|1.0
+|image:Crystal_Clear_mimetype_pdf.png[link=./v1/1.0/cpp_dsc_v1.pdf,40,]
+
+|Supporting Document: Mandatory Technical Document: Evaluation Activities for collaborative Protection Profile for Dedicated Security Component
+|1.0
+|image:Crystal_Clear_mimetype_pdf.png[link=./v1/1.0/cpp_dsc_sd_v1.pdf,40,]
+
+|===
