@@ -73,4 +73,4 @@ References are updated as follows:
 Errata and Interpretation for CC:2022 (Release 1) and CEM:2022 (Release 1), 001, [.line-through]#Version 1.1, February 1, 2024# #Version 1.2, October 15, 2025#
 
 == Tracking
-https://github.com/DSC-iTC/cPP/pull/485[Pull Reqeust #485]
+https://github.com/DSC-iTC/cPP/pull/485[Pull Request #485]
