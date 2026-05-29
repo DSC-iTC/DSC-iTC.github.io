@@ -3,7 +3,7 @@
 :imagesdir: images
 :icons: font
 :revnumber: 4
-:revdate: 2025-06-17
+:revdate: 2026-05-29
 :linkattrs:
 
 :iTC-longname: Dedicated Security Components
@@ -79,5 +79,14 @@ link:/v2/2.0/SD_DSC_V2.0.pdf[SD_DSC_V2.0]
 |link:/v2/2.0/cPP_DSC_V2.0.1.pdf[cPP_DSC_V2.0.1]
 
 link:/v2/2.0/SD_DSC_V2.0.1.pdf[SD_DSC_V2.0.1]
+
+|DSCA0007
+|link:DSCA0007.html[Update for CC Errata v1.2]
+|FCS_RBG.1, FCS_RBG.2, FCS_RBG.5
+|2026-05-29
+|link:/v2/2.1/cPP_DSC_V2.1.pdf[cPP_DSC_V2.1]
+
+link:/v2/2.1/SD_DSC_V2.1.pdf[SD_DSC_V2.1]
+|
 
 |===

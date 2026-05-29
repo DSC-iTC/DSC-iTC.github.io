@@ -1,0 +1,76 @@
+= DSCA0007 - Update for CC Errata v1.2
+:showtitle:
+:imagesdir: images
+:icons: font
+:revnumber: 1
+:revdate: 2026-05-29
+:linkattrs:
+
+:iTC-longname: Dedicated Security Components
+:iTC-shortname: DSC-iTC
+:iTC-email: iTC-DSC@niap-ccevs.org
+:iTC-website: https://DSC-iTC.github.io/
+:iTC-GitHub: https://github.com/DSC-iTC/cPP/
+
+Published: {revdate}
+
+== Impacted Documents
+link:/v2/2.1/cPP_DSC_V2.1.pdf[*cPP_DSC_V2.1* PDF] | link:/v2/2.1/cPP_DSC_V2.1.html[*cPP_DSC_V2.1* HTML]
+
+link:/v2/2.1/SD_DSC_V2.1.pdf[*SD_DSC_V2.1* PDF] | link:/v2/2.1/SD_DSC_V2.1.html[*SD_DSC_V2.1* HTML]
+
+== References
+FCS_RBG.1
+
+FCS_RBG.2
+
+FCS_RBG.5
+
+== Issue Description
+
+Version 1.2 of the Errata and Interpretation for CC:2022 (Release 1) and CEM:2022 (Release 1) updated the wording of several SFRs included in the protection profile.
+
+== Resolution
+
+FCS_RBG.1, FCS_RBG.2, FCS_RBG.5 are updated to match the wording in the Errata v1.2. Other Errata v1.2 changes were already incorporated in cPP_DSC_V2.1 as refinements; they are not included in this TD. The references are updated to refer to the latest version of the Errata.
+
+== cPP_DSC_V2.1
+
+The cPP is updated as follows (yellow highlights for additions, strikethrough for deletions) per section that is being updated:
+
+=== FCS_RBG.1
+
+FCS_RBG.1.1 is updated as follows:
+
+FCS_RBG.1.1:: The TSF shall perform deterministic random bit generation services using [*selection*: _DRBG algorithm_] in accordance with [*selection*: _list of standards_] after initialization [.line-through]#with a seed#.
+
+=== FCS_RBG.2
+
+FCS_RBG.2.1 is updated as follows:
+
+FCS_RBG.2.1:: The TSF shall be able to accept a minimum input of [assignment: _minimum input length greater than zero_] from a TSF interface for [.line-through]#the purpose of# obtaining entropy.
+
+=== FCS_RBG.5
+
+FCS_RBG.5.1 is updated as follows:
+
+FCS_RBG.5.1:: The TSF shall {empty}[*selection*: _hash, concatenate and hash, xor, input into a linear feedback shift register, [assignment: combining operation]_] [selection: _output from TSF entropy source(s), input from TSF interface(s) for obtaining entropy_] #resulting in a minimum of [assignment: _number of bits_] bits of min-entropy# to create the entropy input into the derivation function as defined in [*selection*: _ISO/IEC 18031: 2011, NIST SP 800-90A Revision 1_] [.line-through]#resulting in a minimum of [assignment: _number of bits_] bits of min-entropy#.
+
+=== References
+
+References are updated as follows:
+
+Errata and Interpretation for CC:2022 (Release 1) and CEM:2022 (Release 1), 001, [.line-through]#Version 1.1, February 1, 2024# #Version 1.2, October 15, 2025#
+
+== SD_DSC_V2.1
+
+The SD is updated as follows (yellow highlights for additions, strikethrough for deletions) per section that is being updated:
+
+=== References
+
+References are updated as follows:
+
+Errata and Interpretation for CC:2022 (Release 1) and CEM:2022 (Release 1), 001, [.line-through]#Version 1.1, February 1, 2024# #Version 1.2, October 15, 2025#
+
+== Tracking
+https://github.com/DSC-iTC/cPP/pull/485[Pull Reqeust #485]
